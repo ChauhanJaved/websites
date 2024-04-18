@@ -1,0 +1,104 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+<head>
+<meta name="verify-v1" content="aS+8ezJrWB5JG5VN2uUzB4VmWzVZwxtOB7EWc99nmfY=" />
+<title>How to Convert Webpage to Image in ASP.Net?</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<meta name="description" content="Convert HTML to Image is a windows command line tool to convert html and mhtml files to images in batch, generate website thumbnail or screenshot from any url." />
+<meta name="keywords" content="convert html to image, website thumbnail, web page screenshot" />
+<link rel="stylesheet" href="style/basic.css" type="text/css" />
+</head>
+<body >
+<div id="wrapper">
+  <div id="header">
+    <div id="HeaderLogo"> <img src="style/images/logo.png" alt="Convert HTML to Image Logo" /></div>
+  </div>
+  <ul id="tabs">
+    <li><a href="index.html" id="active">Home</a></li>
+    <li><a href="usage.html" >Usage</a></li>
+    <li><a href="download.html" >Download</a></li>
+    <li><a href="purchase.html">Purchase</a></li>
+    <li><a href="contact.html">Contact</a></li>
+  </ul>
+  <div id="content">
+    <div id="breadcrumbs"> You are here: <a href="index.html"><strong>Home</strong></a> > <span id="breadcrumbsCurrentLocation">HTML to Image for .NET</span> </div>
+    <h2 class="pageSectionHeading clear">How to Convert Web Page to Image in ASP.Net ?</h2>
+    <p>Sometimes, we want to take screenshot of website page and save screenshot as JPG, PNG, TIF, GIF or BMP format on computer or in memory. To add this feature in your .NET (ASP, C-Sharp and Visual Basic) projects, you can try our <a href="http://www.websitesscreenshot.com" target="_blank">.NET assembly HTML to Image - web page to image developer SDK</a>. It helps you capture full length web page screenshot of given URL, generate thumbnail image preview of given URL with single function call.</p>
+    <div id="CenterContentMain">
+      <div id="DownloadNowImage">
+        <div id="ImageLink"><a href="http://www.websitesscreenshot.com/download.html" target="_blank"><img src="style/images/downloadnow.gif" alt="Download Now" /></a></div>
+        <a  href="http://www.websitesscreenshot.com/download.html" target="_blank" ><strong>HTML to Image for .NET</strong></a> </div>
+      <p>Download HTML to Image for .NET and install it on your computer, with a few function calls, it takes the snapshots of given URLs as JPG, GIF, PNG, BMP and TIFF image, it helps you convert the web page to images in batch, capture full length website screenshots, generate thumbnail image previews of web pages.</p>
+      <div class="clear"></div>
+    </div>
+    <p><br/>
+      Following code sample shows you how to convert web page to thumbnail image in ASP.NET. Pass your URL into CaptureWebpage function, set your thumbnail width and height, save your resulted thumbnail. You can also use PreserveAspectRatio property to preserve width or height of thumbnail. </p>
+    <p>C# .Net Code.</p>
+    <div id="CodePage">
+      <pre>    
+WebsitesScreenshot.WebsitesScreenshot  _Obj;
+_Obj = new WebsitesScreenshot.WebsitesScreenshot ();
+WebsitesScreenshot.WebsitesScreenshot.Result _Result;
+_Result = _Obj.CaptureWebpage("www.msn.com");
+if (_Result == WebsitesScreenshot.WebsitesScreenshot.Result.Captured)
+{
+	_Obj.ImageWidth = 200;
+	_Obj.ImageHeight = 300;
+	_Obj.ImageFormat = WebsitesScreenshot.
+	     WebsitesScreenshot.ImageFormats.BMP;
+	_Obj.SaveImage("d:\\msn.bmp");
+}
+_Obj.Dispose();
+</pre>
+    </div>
+    <br/>
+    <p>VB .Net code.</p>
+    <div id="CodePage">
+      <pre>    
+Dim _Obj As New WebsitesScreenshot.WebsitesScreenshot()
+Dim _Result As WebsitesScreenshot.WebsitesScreenshot.Result
+With _Obj
+	_Result = .CaptureWebpage("www.msn.com")
+	If _Result = WebsitesScreenshot.WebsitesScreenshot. _
+				Result.Captured Then
+		.ImageWidth = 200
+		.ImageHeight = 300
+		.ImageFormat = WebsitesScreenshot. _
+				WebsitesScreenshot.ImageFormats.BMP
+		.SaveImage("d:\msn.bmp")
+	End If
+End With
+_Obj.Dispose()
+</pre>
+    </div>
+    <div id="ToTopBox"> <a href="#">to top</a> </div>
+  </div>
+  <div id="OtherLink">
+    <h2 class="pageSectionHeading2 clear">Looking For</h2>
+    <p> <a href="http://www.webpagethumbnailer.com" ><strong>Desktop Application</strong> <br/>
+      HTML/MHTML to Image in Batch,<br/>
+      Make Webpage Screenshots,<br/>
+      Generate Website Thumbnails,<br/>
+      Click here...</a></p>
+    <p> <a href="index.html" ><strong>Command Line Tool</strong> <br/>
+      Capture Website Screenshot, <br/>
+      Generate Webpage Thumbnail, <br/>
+      Convert HTML to Image,<br/>
+      Click here...</a> </p>
+  </div>
+  <div class="clear"></div>
+  <div id="footer">
+    <p>Copyright &copy;2024 <aa href="http://frameworkteam.com/" target="_blank">FrameworkTeam Softwares</a>, All rights reserved.</p>
+    <p><a href="https://www.frameworkteam.com/terms-of-use.html" target="_blank">Terms of Use</a> |
+        <a href="https://www.frameworkteam.com/privacy-policy.html" target="_blank">Privacy Policy</a></p>
+  </div>
+</div>
+</div>
+<script src="http://www.google-analytics.com/urchin.js" type="text/javascript">
+</script>
+<script type="text/javascript">
+_uacct = "UA-2785940-3";
+urchinTracker();
+</script>
+</body>
+</html>
