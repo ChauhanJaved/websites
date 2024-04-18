@@ -1,0 +1,307 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<XML_DIZ_INFO>
+  <MASTER_PAD_VERSION_INFO>
+    <MASTER_PAD_VERSION>4.0</MASTER_PAD_VERSION>
+    <MASTER_PAD_EDITOR>AppVisor 1.0.43</MASTER_PAD_EDITOR>
+    <MASTER_PAD_EDITOR_URL>http://publisher.appvisor.com</MASTER_PAD_EDITOR_URL>
+    <MASTER_PAD_INFO>Portable Application Description, or PAD(TM) 2004 Association of Software Professionals (ASP)http://www.asp-shareware.org/pad is a data set standard and specification that is commercialsoftware publishers to disseminate certified information about their software application. The PAD format is copyright of the ASP and cannot be used without the formal licensing and permission of both the Association of Software Professionals and its agent AppVisor.com.</MASTER_PAD_INFO>
+    <CERTIFIED>No</CERTIFIED>
+    <CERTIFICATE_ID></CERTIFICATE_ID>
+    <CERTIFICATE_LICENSE></CERTIFICATE_LICENSE>
+  </MASTER_PAD_VERSION_INFO>
+  <RoboSoft>
+    <Company_UIN>CMP-4600E19848CE</Company_UIN>
+    <Product_UIN>APP-1A002F3953AA</Product_UIN>
+    <Publish_on_CD></Publish_on_CD>
+    <NewsFeed_Search_String></NewsFeed_Search_String>
+    <Search_String>.NET Websites Screenshot DLL</Search_String>
+    <Press_Release_Search_String></Press_Release_Search_String>
+    <Backlink></Backlink>
+    <Comments_For_Reviewer></Comments_For_Reviewer>
+    <Search_String_Unique>.NET Websites Screenshot DLL</Search_String_Unique>
+    <Search_Engine_Search_String></Search_Engine_Search_String>
+    <Web_Directories_Search_String></Web_Directories_Search_String>
+    <Company_Description></Company_Description>
+  </RoboSoft>
+  <Company_Info>
+    <PublisherID>pid-e9000775c2aa</PublisherID>
+    <BrandID>bid-4600e19848ce</BrandID>
+    <Company_Name>FrameworkTeam Softwares</Company_Name>
+    <Country>India</Country>
+    <State_Province>Gujrat</State_Province>
+    <City_Town>Ahmedabad</City_Town>
+    <Zip_Postal_Code>380055</Zip_Postal_Code>
+    <Address_1>C/28 Classic Park Society</Address_1>
+    <Address_2>Sarkhej Road</Address_2>
+    <Company_WebSite_URL>http://www.frameworkteam.com/</Company_WebSite_URL>
+    <Contact_Info>
+      <Contact_First_Name>Javed</Contact_First_Name>
+      <Contact_Last_Name>Chauhan</Contact_Last_Name>
+      <Contact_Email>Support@FrameworkTeam.com</Contact_Email>
+      <Author_First_Name>Javed</Author_First_Name>
+      <Author_Last_Name>Chauhan</Author_Last_Name>
+      <Author_Email>Support@FrameworkTeam.com</Author_Email>
+      <Contact_Phone></Contact_Phone>
+    </Contact_Info>
+    <Support_Info>
+      <Sales_Email>Support@FrameworkTeam.com</Sales_Email>
+      <Support_Email>Support@FrameworkTeam.com</Support_Email>
+      <General_Email>Support@FrameworkTeam.com</General_Email>
+      <Sales_Phone></Sales_Phone>
+      <Support_Phone></Support_Phone>
+      <General_Phone></General_Phone>
+      <Fax_Phone></Fax_Phone>
+    </Support_Info>
+    <GooglePlusPage></GooglePlusPage>
+    <LinkedinPage></LinkedinPage>
+    <TwitterCompanyPage></TwitterCompanyPage>
+    <FacebookCompanyPage></FacebookCompanyPage>
+    <CompanyStorePage></CompanyStorePage>
+  </Company_Info>
+  <Program_Info>
+    <AppID>app-1a002f3953aa</AppID>
+    <Program_Name>.NET Websites Screenshot DLL</Program_Name>
+    <Program_Version>1.8</Program_Version>
+    <Program_Release_Month>04</Program_Release_Month>
+    <Program_Release_Day>28</Program_Release_Day>
+    <Program_Release_Year>2014</Program_Release_Year>
+    <Program_Cost_Dollars>99</Program_Cost_Dollars>
+    <Program_Cost_Other_Code></Program_Cost_Other_Code>
+    <Program_Cost_Other></Program_Cost_Other>
+    <Program_Type>Shareware</Program_Type>
+    <Program_Category_Class>Development::Components &amp; Libraries</Program_Category_Class>
+    <Program_Specific_Category>Development Tools</Program_Specific_Category>
+    <Program_Categories></Program_Categories>
+    <Program_Release_Status>Minor Update</Program_Release_Status>
+    <Program_Install_Support>No Install Support</Program_Install_Support>
+    <Program_OS_Support>Win2000,WinXP,Win7 x32,Win7 x64,Windows 8,Windows Server 2000,Windows Server 2003,Windows Server 2008,Windows Server 2008r2,Windows Server 2012,Windows Vista Starter,Windows Vista Home Basic,Windows Vista Home Premium,Windows Vista Business,Windows Vista Enterprise,Windows Vista Ultimate,WinVista x64,Windows Vista Home Basic x64,Windows Vista Home Premium x64,Windows Vista Business x64,Windows Vista Enterprise x64,Windows Vista Ultimate x64</Program_OS_Support>
+    <Program_Language>English</Program_Language>
+    <Program_Change_Info></Program_Change_Info>
+    <Program_System_Requirements></Program_System_Requirements>
+    <Limitations></Limitations>
+    <Awards></Awards>
+    <File_Info>
+      <File_Size_Bytes>279552</File_Size_Bytes>
+      <File_Size_K>273</File_Size_K>
+      <File_Size_MB>0.27</File_Size_MB>
+      <Filename_Versioned></Filename_Versioned>
+      <Filename_Previous></Filename_Previous>
+      <Filename_Generic></Filename_Generic>
+      <Filename_Long></Filename_Long>
+    </File_Info>
+    <Expire_Info>
+      <Has_Expire_Info>N</Has_Expire_Info>
+      <Expire_Count></Expire_Count>
+      <Expire_Based_On></Expire_Based_On>
+      <Expire_Year></Expire_Year>
+      <Expire_Other_Info></Expire_Other_Info>
+      <Expire_Month></Expire_Month>
+      <Expire_Day></Expire_Day>
+    </Expire_Info>
+    <FacebookFanPage></FacebookFanPage>
+    <VideoLink1URL></VideoLink1URL>
+    <VideoLink2URL></VideoLink2URL>
+    <Includes_JAVA_VM></Includes_JAVA_VM>
+    <Includes_DirectX></Includes_DirectX>
+    <Includes_VB_Runtime></Includes_VB_Runtime>
+    <GooglePlusFanPage></GooglePlusFanPage>
+  </Program_Info>
+  <Web_Info>
+    <Application_URLs>
+      <Application_Info_URL>http://www.websitesscreenshot.com</Application_Info_URL>
+      <Application_Order_URL>http://www.websitesscreenshot.com/Purchase.html</Application_Order_URL>
+      <Application_Screenshot_URL>http://www.websitesscreenshot.com/Media/Images/Screenshots/WebsitesScreenshot.png</Application_Screenshot_URL>
+      <Application_Icon_URL>http://www.websitesscreenshot.com/Media/Images/Screenshots/WebsitesScreenshot-Icon.gif</Application_Icon_URL>
+      <Application_XML_File_URL>http://repository.appvisor.com/app-1a002f3953aa/site-01/.NET_Websites_Screenshot_DLL_pad.xml</Application_XML_File_URL>
+    </Application_URLs>
+    <Download_URLs>
+      <Primary_Download_URL>http://www.websitesscreenshot.com/Media/Download/WebsitesScreenshot_Trial.exe</Primary_Download_URL>
+      <Secondary_Download_URL></Secondary_Download_URL>
+      <Additional_Download_URL_1></Additional_Download_URL_1>
+      <Additional_Download_URL_2></Additional_Download_URL_2>
+    </Download_URLs>
+  </Web_Info>
+  <Program_Descriptions>
+    <English>
+      <Keywords>html to image, capture  webpage thumbnail, render website screenshot, web page snapshot, website thumbshot, html to jpg, html to gif, html to png, html to bmp, html to tif</Keywords>
+      <Char_Desc_45>Website Screenshot, Thumbnail, HTML to image</Char_Desc_45>
+      <Char_Desc_80>generate screenshot/thumbnail of website, convert html files to image.</Char_Desc_80>
+      <Char_Desc_250>The Websites Screenshot DLL is a .NET Class Library to render website page. It allows you to capture website page and create full size screenshot or thumbnail preview in a number of different formats like JPG, GIF, PNG, BMP and TIF.</Char_Desc_250>
+      <Char_Desc_450>The Websites Screenshot DLL is a .NET Class Library to render website page. It allows you to capture website page and create full size screenshot or thumbnail preview in a number of different formats like JPG, GIF, PNG, BMP and TIF. You can use this dll for the following web or windows programming task... To capture full size screenshot of website page, To create thumbnail image of website page, To convert HTML code to image.</Char_Desc_450>
+      <Char_Desc_2000>The Websites Screenshot DLL is a .NET Class Library to render website page. It allows you to capture website page and create full size screenshot or thumbnail preview in a number of different formats like JPG, GIF, PNG, BMP and TIF. You can use this dll for the following web or windows programming task...To capture full size screenshot of website page,  To create thumbnail image of website page,  To convert HTML code to image. Websites Screenshot DLL is very flexible, powerful and fast. It includes many options to customize the webpage image capturing process.
+
+Key Features
+    * Generate website thumbnail image.
+    * Capture full size screenshot of any web page.
+    * Convert MHTML or HTML to image.
+    * Support saving resulting image both to local file and in memory.
+    * Take a snapshot of a whole webpage into one image without scrollbars.
+    * Ability to retrieve page for capturing via HTTP, HTTPS, or from a local file.
+    * Supports JPG, GIF, PNG, BMP and TIF image formats.
+    * Ability to set JPEG quality (compression) percent.
+    * Supports capturing site with flash content.
+    * Get links, title or html source of a page.
+    * Ability to enable or disable scripts, ActiveX, Java.
+    * Ability to set timeout seconds of web page to load.
+    * Supports delayed snapshots of web page.
+    * Configurable capture area width and height.
+    * Multithreaded architecture for simultaneous processing of multiple requests.</Char_Desc_2000>
+    </English>
+  </Program_Descriptions>
+  <Permissions>
+    <Distribution_Permissions></Distribution_Permissions>
+    <EULA>Websites Screenshot DLL for .Net
+Copyright (C) WebsitesScreenshot.com
+
+
+1. License
+============
+
+WebsitesScreenshot.com grants you a non-exclusive license to install and use a copy of the software on a single server held or controlled by you. You may transfer the software between servers only if it is first removed from the old computer prior to being installed on the new one. You may only install and use the software within your own organization. You shall not reverse engineer, disassemble or decompile all or part of the Program. You are permitted to copy the documentation only for your own use. You are permitted to make only one back-up copy. The sale and sub-licensing of the software are forbidden.
+This license shall not be transferred or assigned without the prior written agreement of WebsitesScreenshot.com or an approved distributor.
+
+2. Evaluation License
+======================
+
+The trial software version is free of charge. It may be freely distributed on the sole condition that it is not altered in any way. WEBSITES SCREENSHOT DLL Evaluation version can't be used in commercial applications.
+
+3. Deployment License
+=======================
+
+ With a deployment license you can deploy our component on a single physical server owned by you or by your company as part of a single server-side ASP.NET web application, or as part of a single Windows desktop application for personal use or distributed only inside your company.
+
+If you intend to redistribute our assemblies outside your company or if you need to deploy our products on many physical servers or as part of many server side applications or as part of many desktop applications you'll have to buy a redistributable license.
+
+4. Redistributable License
+===========================
+
+A redistributable license allows you to use our component in ASP.NET web applications or Windows desktop applications that you can deploy/distribute inside or outside your company, on an unlimited number of physical servers or to an unlimited number of customers.
+
+You are required to ensure that the software is not distributed in any form that allows it to be reused by any application other than that with which you distribute it. For example, if you install WEBSITES SCREENSHOT DLL component along with a packaged application on a customer's server, that customer is not permitted to use the component independent of your application.
+
+5. Warranty disclaimer
+=======================
+
+THE SOFTWARE IS SUPPLIED "AS IS" WITHOUT WARRANTY OF ANY KIND. WebsitesScreenshot.com, ITS LICENSORS AND THEIR EMPLOYEES: (1) DISCLAIM ANY WARRANTIES, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO ANY IMPLIED WARRANTIES OR MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, TITLE OR NON-INFRINGEMENT, (2) DO NOT ASSUME ANY LEGAL LIABILITY OR RESPONSIBILITY FOR THE ACCURACY, COMPLETENESS, OR USEFULNESS OF THE SOFTWARE, (3) DO NOT REPRESENT THAT USE OF THE SOFTWARE WOULD NOT INFRINGE PRIVATELY OWNED RIGHTS, (4) DO NOT WARRANT THAT THE SOFTWARE WILL FUNCTION UNINTERRUPTED, THAT IT IS ERROR-FREE OR THAT ANY ERRORS WILL BE CORRECTED. 
+
+6. Limitation of liability
+===========================
+
+IN NO EVENT WILL LICENSEE, WebsitesScreenshot.com OR ITS LICENSORS BE LIABLE FOR ANY INDIRECT, INCIDENTAL, CONSEQUENTIAL, SPECIAL OR PUNITIVE DAMAGES OF ANY KIND OR NATURE, INCLUDING BUT NOT LIMITED TO LOSS OF PROFITS OR LOSS OF DATA, FOR ANY REASON WHATSOEVER, WHETHER SUCH LIABILITY IS ASSERTED ON THE BASIS OF CONTRACT, TORT (INCLUDING NEGLIGENCE OR STRICT LIABILITY), OR OTHERWISE, EVEN IF WebsitesScreenshot.com HAS BEEN WARNED OF THE POSSIBILIITY OF SUCH LOSS OR DAMAGES. IN NO EVENT SHALL WebsitesScreenshot.com 'S LIABILITY FOR DAMAGES ARISING FROM OR IN CONNECTION WITH THIS AGREEMENT EXCEED THE AMOUNT PAID BY YOU FOR THE SOFTWARE. 
+
+7. Term and termination
+=======================
+
+The license granted to the Licensee under this Agreement will continue perpetually unless terminated by WebsitesScreenshot.com in accordance with this Agreement. If the Licensee breaches any term of this Agreement, and fails to cure such breach within thirty (30) days of the date of written notice, this Agreement shall immediately terminate. Upon such termination, the Licensee shall immediately cease using the Software, return to WebsitesScreenshot.com, or destroy, all copies of the Software, and provide WebsitesScreenshot.com with written certification of your compliance with the foregoing. Termination shall not relieve the Licensee from its obligations arising prior to such termination. Notwithstanding any provision of this Agreement to the contrary, Sections 2 through 10 shall survive termination of this Agreement. 
+
+8. Export controls
+===================
+
+The Licensee shall observe all applicable laws and regulations (if any) with respect to the export, re-export, diversion or transfer of the Software, related technical data and direct products thereof, including, without limitation, the International Traffic in Arms Regulations (ITAR) and the Export Administration Regulations. 
+
+
+Thanks
+WebsitesScreenshot.com</EULA>
+  </Permissions>
+  <Affiliates>
+    <Affiliates_Regsoft_Order_Page></Affiliates_Regsoft_Order_Page>
+    <Affiliates_Regnow_Order_Page></Affiliates_Regnow_Order_Page>
+    <Affiliates_Regsoft_Vendor_ID></Affiliates_Regsoft_Vendor_ID>
+    <Affiliates_Regnow_Vendor_ID></Affiliates_Regnow_Vendor_ID>
+    <Affiliates_Regsoft_Product_ID></Affiliates_Regsoft_Product_ID>
+    <Affiliates_Regnow_Product_ID></Affiliates_Regnow_Product_ID>
+    <Affiliates_FORM>Y</Affiliates_FORM>
+    <Affiliates_FORM_VER></Affiliates_FORM_VER>
+    <Affiliates_VERSION>1.4</Affiliates_VERSION>
+    <Affiliates_URL>http://pad.asp-software.org/extensions/Affiliates.htm</Affiliates_URL>
+    <Affiliates_Information_Page>https://www.plimus.com/jsp/new_developer.jsp?type=AFFILIATE&amp;referringDeveloperId=88404&amp;referringContractId=3218798</Affiliates_Information_Page>
+    <Affiliates_Avangate_Order_Page></Affiliates_Avangate_Order_Page>
+    <Affiliates_Avangate_Vendor_ID></Affiliates_Avangate_Vendor_ID>
+    <Affiliates_Avangate_Product_ID></Affiliates_Avangate_Product_ID>
+    <Affiliates_Avangate_Maximum_Commission_Rate></Affiliates_Avangate_Maximum_Commission_Rate>
+    <Affiliates_Plimus_Order_Page>https://www.plimus.com/jsp/buynow.jsp?contractId=1819346</Affiliates_Plimus_Order_Page>
+    <Affiliates_Plimus_Vendor_ID>88404</Affiliates_Plimus_Vendor_ID>
+    <Affiliates_Plimus_Product_ID>1819346</Affiliates_Plimus_Product_ID>
+    <Affiliates_Plimus_Maximum_Commission_Rate>30%</Affiliates_Plimus_Maximum_Commission_Rate>
+    <Affiliates_BMTMicro_Order_Page></Affiliates_BMTMicro_Order_Page>
+    <Affiliates_BMTMicro_Vendor_ID></Affiliates_BMTMicro_Vendor_ID>
+    <Affiliates_BMTMicro_Product_ID></Affiliates_BMTMicro_Product_ID>
+    <Affiliates_BMTMicro_Maximum_Commission_Rate></Affiliates_BMTMicro_Maximum_Commission_Rate>
+    <Affiliates_eSellerate_Order_Page></Affiliates_eSellerate_Order_Page>
+    <Affiliates_eSellerate_Vendor_ID></Affiliates_eSellerate_Vendor_ID>
+    <Affiliates_eSellerate_Product_ID></Affiliates_eSellerate_Product_ID>
+    <Affiliates_eSellerate_Maximum_Commission_Rate></Affiliates_eSellerate_Maximum_Commission_Rate>
+    <Affiliates_Kagi_Order_Page></Affiliates_Kagi_Order_Page>
+    <Affiliates_Kagi_Vendor_ID></Affiliates_Kagi_Vendor_ID>
+    <Affiliates_Kagi_Product_ID></Affiliates_Kagi_Product_ID>
+    <Affiliates_Kagi_Maximum_Commission_Rate></Affiliates_Kagi_Maximum_Commission_Rate>
+    <Affiliates_Order1_Order_Page></Affiliates_Order1_Order_Page>
+    <Affiliates_Order1_Vendor_ID></Affiliates_Order1_Vendor_ID>
+    <Affiliates_Order1_Product_ID></Affiliates_Order1_Product_ID>
+    <Affiliates_Order1_Maximum_Commission_Rate></Affiliates_Order1_Maximum_Commission_Rate>
+    <Affiliates_Regnet_Order_Page></Affiliates_Regnet_Order_Page>
+    <Affiliates_Regnet_Vendor_ID></Affiliates_Regnet_Vendor_ID>
+    <Affiliates_Regnet_Product_ID></Affiliates_Regnet_Product_ID>
+    <Affiliates_Regnet_Maximum_Commission_Rate></Affiliates_Regnet_Maximum_Commission_Rate>
+    <Affiliates_Regnow_Maximum_Commission_Rate></Affiliates_Regnow_Maximum_Commission_Rate>
+    <Affiliates_Regsoft_Maximum_Commission_Rate></Affiliates_Regsoft_Maximum_Commission_Rate>
+    <Affiliates_ShareIt_Order_Page></Affiliates_ShareIt_Order_Page>
+    <Affiliates_ShareIt_Vendor_ID></Affiliates_ShareIt_Vendor_ID>
+    <Affiliates_ShareIt_Product_ID></Affiliates_ShareIt_Product_ID>
+    <Affiliates_ShareIt_Maximum_Commission_Rate></Affiliates_ShareIt_Maximum_Commission_Rate>
+    <Affiliates_SWReg_Order_Page></Affiliates_SWReg_Order_Page>
+    <Affiliates_SWReg_Vendor_ID></Affiliates_SWReg_Vendor_ID>
+    <Affiliates_SWReg_Product_ID></Affiliates_SWReg_Product_ID>
+    <Affiliates_SWReg_Maximum_Commission_Rate></Affiliates_SWReg_Maximum_Commission_Rate>
+  </Affiliates>
+  <NewsFeed>
+    <NewsFeed_FORM></NewsFeed_FORM>
+    <NewsFeed_VERSION></NewsFeed_VERSION>
+    <NewsFeed_URL></NewsFeed_URL>
+    <NewsFeed_DESCRIPTION></NewsFeed_DESCRIPTION>
+    <NewsFeed_Feed_URL></NewsFeed_Feed_URL>
+    <NewsFeed_Type></NewsFeed_Type>
+    <NewsFeed_Site_URL></NewsFeed_Site_URL>
+    <NewsFeed_Author_First_Name>Javed</NewsFeed_Author_First_Name>
+    <NewsFeed_Author_Last_Name>Chauhan</NewsFeed_Author_Last_Name>
+    <NewsFeed_Author_Email>Support@FrameworkTeam.com</NewsFeed_Author_Email>
+    <NewsFeed_Language></NewsFeed_Language>
+    <NewsFeed_Title></NewsFeed_Title>
+    <NewsFeed_Description_70></NewsFeed_Description_70>
+    <NewsFeed_Description_250></NewsFeed_Description_250>
+    <NewsFeed_Purpose></NewsFeed_Purpose>
+    <NewsFeed_Site_Name></NewsFeed_Site_Name>
+  </NewsFeed>
+  <Press_Release>
+    <Press_Release></Press_Release>
+    <Headline></Headline>
+    <Summary></Summary>
+    <Press_Release_Plain></Press_Release_Plain>
+  </Press_Release>
+  <Site>
+    <Site_FORM></Site_FORM>
+    <Site_VERSION></Site_VERSION>
+    <Site_URL></Site_URL>
+    <Site_DESCRIPTION></Site_DESCRIPTION>
+    <Site_Site_Title></Site_Site_Title>
+    <Site_Site_URL></Site_Site_URL>
+    <Site_Keywords></Site_Keywords>
+    <Site_Description_100></Site_Description_100>
+    <Site_Description_250></Site_Description_250>
+    <Site_Description_450></Site_Description_450>
+    <Site_Contact_First_Name>Javed</Site_Contact_First_Name>
+    <Site_Contact_Last_Name>Chauhan</Site_Contact_Last_Name>
+    <Site_Contact_Email>Support@FrameworkTeam.com</Site_Contact_Email>
+  </Site>
+  <Dynamic_PAD>
+    <General>
+      <DP_Pad_Enabled>TRUE</DP_Pad_Enabled>
+      <DP_AtFormFill_Enabled>TRUE</DP_AtFormFill_Enabled>
+      <DP_Distributive_Enabled>TRUE</DP_Distributive_Enabled>
+      <DP_Script_Base_URL>http://repository.appvisor.com/</DP_Script_Base_URL>
+      <DP_Pad_Mask>.NET_Websites_Screenshot_DLL_pad.xml</DP_Pad_Mask>
+      <DP_Distributive_Primary_URL>http://www.websitesscreenshot.com/Media/Download/WebsitesScreenshot_Trial.exe</DP_Distributive_Primary_URL>
+      <DP_Distributive_Mask>WebsitesScreenshot_Trial.exe</DP_Distributive_Mask>
+    </General>
+  </Dynamic_PAD>
+</XML_DIZ_INFO>

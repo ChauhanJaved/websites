@@ -1,0 +1,169 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+<head>
+<meta name="verify-v1" content="snX4ezjqMSVU7/gCVkUkMMkRj/6s67hzcHj+Ltb1S5I=" />
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<link rel="stylesheet" href="style/basic.css" type="text/css" />
+<title>Website Page Thumbnail, Screenshot, HTML to Image in .Net Application (ASP.NET, C#, VB.NET).</title>
+<meta name="description" content="Websites Screenshot is a .NET 2.0 dll to take screenshot of website page from any url, generate thumbnail image of webpage, convert html to image in asp.net, vb.net, c#.net. It supports JPG, GIF, PNG, BMP and TIF image formats." />
+<meta name="keywords" content="website screenshot generation asp.net, webpage thumbnail creation vb.net, html to image conversion c#.net" />
+</head>
+<body >
+<div id="wrapper">
+  <div id="header">
+    <div id="HeaderLogo"> <img src="style/images/logo.png" alt="Websites Screenshot Logo" /></div>
+  </div>
+  <ul id="tabs">
+    <li><a href="index.html" id="active">Home</a></li>
+    <li><a href="usage.html" >Usage</a></li>
+    <li><a href="download.html" >Download</a></li>
+    <li><a href="purchase.html">Purchase</a></li>
+    <li><a href="contact.html">Contact</a></li>
+  </ul>
+  <div id="content">
+    <p> The Websites Screenshot DLL is a <strong>.NET Class Library</strong> to render website page. It allows you to capture website page and create full size screenshot or thumbnail preview in a number of different formats like JPG, GIF, PNG, BMP and TIF.
+      You can use this dll for the following web or windows programming task.
+    <p> To capture full size screenshot of website page. <br/>
+      To create thumbnail image of website page. <br/>
+      To convert HTML code to image. </p>
+    <p>Websites Screenshot DLL is very flexible, powerful and fast. It includes many options to customize the webpage image capturing process. Suppose you want to produce a 200 x 300 PNG thumbnail image of the www.msn.com. This is the code you need. </p>
+    <p>C# .NET code sample: (Add reference to <strong>WebsitesScreenshot.dll</strong> in your project.)<br/>
+      Namespace: WebsitesScreenshot </p>
+    <div id="CodePage">
+      <pre>    
+WebsitesScreenshot.WebsitesScreenshot _Obj;
+_Obj = new WebsitesScreenshot.WebsitesScreenshot();
+WebsitesScreenshot.WebsitesScreenshot.Result _Result;            
+_Result = _Obj.CaptureWebpage("http://www.msn.com");
+if (_Result == WebsitesScreenshot.
+			WebsitesScreenshot.Result.Captured)
+{
+	_Obj.ImageWidth = 200;
+	_Obj.ImageHeight = 300;
+	_Obj.ImageFormat = WebsitesScreenshot.
+		WebsitesScreenshot.ImageFormats.PNG;
+	_Obj.SaveImage("c:\\msn.png");
+} 
+_Obj.Dispose();
+</pre>
+    </div>
+    <br />
+    <p>And here is the thumbnail you get.</p>
+    <p><img src="media/images/screenshots/msn.png" alt="Websites Screenshot" /> </p>
+    <p>However, if you don't want to save your image to a local file, you can also get it in a memory object. You can use this component in any .NET supported languages (VB, C#, ASP etc...) </p>
+    <div id="CommonLinks"> <a href="purchase.html"><strong>Buy Now</strong></a> | <a href="download.html"><strong>Download Assembly</strong></a> </div>
+    <h2 class="pageSectionHeading clear">Key Features</h2>
+    <div id="CenterContent">
+      <div id="FeaturesBox" >
+        <ul  type="square">
+          <LI>Generate website thumbnail image.</LI>
+          <LI>Capture full size screenshot of any web page.</LI>
+          <LI>Convert HTML to image.</LI>
+          <LI>Support saving resulting image both to local file and in memory.</LI>
+          <LI>Take a snapshot of a whole webpage into one image without scrollbars.</LI>
+          <LI>Ability to retrieve page for capturing via HTTP, HTTPS, or from a local file.</LI>
+          <LI>Supports JPG, GIF, PNG, BMP and TIF image formats.</LI>
+          <LI>Ability to set JPEG quality (compression) percent.</LI>
+		  <LI>Works both in 32-bit and 64-bit environments.</LI>
+		  <LI>Assemblies for .NET 2.0 and .NET 4.0</LI>
+		  <LI>No printer driver or any third party tools.</LI>
+          <LI>Supports capturing site with flash content.</LI>
+          <LI>Get links, title or html source of a page.</LI>
+          <LI>Ability to enable or disable scripts, ActiveX, Java.</LI>
+          <LI>Ability to set timeout seconds of web page to load.</LI>
+          <LI>Supports delayed snapshots of web page.</LI>
+          <LI>Configurable capture area width and height.</LI>
+          <LI>Multithreaded architecture for simultaneous processing of multiple requests.</LI>
+        </ul>
+      </div>
+      <br/>
+    </div>
+    <div id="ToTopBox"> <a href="#">to top</a> </div>
+    <h2 class="pageSectionHeading clear">What's New in The Latest Version</h2>
+    <p> Preserve the original aspect ratio when saving the image with given width or height. It is use full when you want to save the fixed width thumbnail or fixed height thumbnail image (<a href="usage.html#sip">PreserveAspectRatio</a>). </p>
+    <p>HTML utility methods added: <br/>
+      GetHtmlDocument: You can get the HTML document (IHTMLDocument2) of the captured website page.<br/>
+      GetDocumentTitle: Get the title of the web page just snapped.<br/>
+      GetDocumentText: Get the text content of the web page just snapped.<br/>
+      GetDocumentLinks: Get the URLs of links on the web page just snapped.<br/>
+      GetDocumentImages: Get the URLs of images on the web page just snapped.<br/>
+      GetDocumentFrames: Get the URLs of frames on the web page just snapped. <br/>
+      (<a href="download.html#vh">Version History</a>) </p>
+    <div id="ToTopBox"> <a href="#">to top</a> </div>
+    <h2 class="pageSectionHeading clear">Sample Output Images (click on thumbnail to see full size screenshot)</h2>
+    <div id="SampleOutput" >
+      <table style="text-align:center; color:#FFFFFF;">
+        <tr>
+          <td> www.youtube.com <br/>
+            100 X 200
+            <div id="ImageLink"> <a href="media/images/sampleoutputs/youtube.com_full.jpg" target="_blank"><img src="media/images/sampleoutputs/youtube.com.jpg" alt="www.youtube.com" class="SampleOutput"/></a></div></td>
+          <td> www.myspace.com <br/>
+            100 X 200
+            <div id="ImageLink"><a href="media/images/sampleoutputs/myspace.com_full.jpg" target="_blank"><img src="media/images/sampleoutputs/myspace.com.jpg" alt="www.myspace.com" class="SampleOutput"/> </a></div></td>
+          <td> www.amazon.com <br/>
+            100 X 200
+            <div id="ImageLink"> <a href="media/images/sampleoutputs/amazon.com_full.jpg" target="_blank"><img src="media/images/sampleoutputs/amazon.com.jpg" alt="www.amazon.com" class="SampleOutput"/> </a></div></td>
+          <td> www.blogger.com <br/>
+            90 X 100
+            <div id="ImageLink"> <a href="media/images/sampleoutputs/blogger.com_full.jpg" target="_blank"><img src="media/images/sampleoutputs/blogger.com.jpg" alt="www.blogger.com" class="SampleOutput"/> </a></div></td>
+        </tr>
+      </table >
+      <table  style="text-align:center; color:#FFFFFF;">
+        <tr>
+          <td> www.msn.com <br/>
+            100 X 150
+            <div id="ImageLink"> <a href="media/images/sampleoutputs/msn.com_full.jpg" target="_blank"><img src="media/images/sampleoutputs/msn.com.jpg" alt="www.msn.com" class="SampleOutput"/> </a></div></td>
+          <td> www.yahoo.com <br/>
+            90 X 120
+            <div id="ImageLink"> <a href="media/images/sampleoutputs/yahoo.com_full.jpg" target="_blank"><img src="media/images/sampleoutputs/yahoo.com.jpg" alt="www.yahoo.com" class="SampleOutput"/> </a></div></td>
+          <td> www.about.com <br/>
+            100 X 150
+            <div id="ImageLink"> <a href="media/images/sampleoutputs/about.com_full.jpg" target="_blank"><img src="media/images/sampleoutputs/about.com.jpg" alt="www.about.com" class="SampleOutput"/> </a></div></td>
+          <td> www.ebay.com <br/>
+            100 X 110
+            <div id="ImageLink"> <a href="media/images/sampleoutputs/ebay.com_full.jpg" target="_blank"><img src="media/images/sampleoutputs/ebay.com.jpg" alt="www.ebay.com" class="SampleOutput"/></a></div></td>
+        </tr>
+      </table>
+    </div>
+    <div id="ToTopBox"> <a href="#">to top</a> </div>
+	<h2 class="pageSectionHeading clear">FAQ</h2>
+	<p><a href="capture-screenshot-of-website-in-c-sharp.html">How to capture screenshot of website from URL in C# (C-Sharp)?</a></p>
+	<p><a href="generate-webpage-thumbnail-in-c-sharp.html">How to generate thumbnail image of webpage in C-Sharp .NET?</a></p>
+	<p><a href="convert-html-to-image-in-c-sharp.html">How to convert HTML to image (JPG, GIF, PNG, BMP and TIF) in C-Sharp?</a></p>
+	<p><a href="make-webpage-snapshot-in-csharp.html">How to make full size snapshot of webpage in C# .NET?</a></p>
+	<p><a href="save-webpage-as-image-in-c-sharp.html">How to save webpage as image in CSharp?</a></p>
+	<p><a href="create-thumbnail-image-of-website-in-c-sharp.html">How to create thumbnail image of website page in C-Sharp .NET?</a></p>
+	<p><a href="render-html-as-jpg-in-c-sharp.html">How to render HTML as JPG in C#?</a></p>
+	<p><a href="take-website-screenshot-in-c-sharp.html">How to take screenshot of website using C#?</a></p>
+	<p><a href="cross-watermark-trial-limitation.html">Why there is gray cross watermark on the image with trial version?</a></p>
+	<p><a href="how-to-use-your-license-key.html">How to use my license key with full version?</a></p>
+  </div>
+  <div id="OtherLink">
+    <h2 class="pageSectionHeading2 clear">Looking For</h2>
+    <p> <a href="http://www.webpagethumbnailer.com" ><strong>Desktop Application</strong> <br/>
+      HTML/MHTML to Image in Batch,<br/>
+      Make Webpage Screenshots,<br/>
+      Generate Website Thumbnails,<br/>
+      Click here.</a></p>
+    <p> <a href="http://www.converthtmltoimage.com" ><strong>Command Line Tool</strong> <br/>
+      HTML/MHTML to Image in Batch, <br/>
+      Generate Website Thumbnails, <br/>
+      Create Webpage Screenshots, <br/>
+      Click here.</a> </p>
+  </div>
+  <div class="clear"></div>
+  <div id="footer">
+    <p>Copyright &copy; 2024 <aa href="http://frameworkteam.com/" target="_blank">FrameworkTeam Softwares</a>, All rights reserved.</p>
+    <p><a href="https://www.frameworkteam.com/terms-of-use.html" target="_blank">Terms of Use</a> |
+        <a href="https://www.frameworkteam.com/privacy-policy.html" target="_blank">Privacy Policy</a></p>
+  </div>
+</div>
+</div>
+<script src="http://www.google-analytics.com/urchin.js" type="text/javascript">
+</script>
+<script type="text/javascript">
+_uacct = "UA-2785940-2";
+urchinTracker();
+</script>
+</body>
+</html>

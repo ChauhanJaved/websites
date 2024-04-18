@@ -1,0 +1,641 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<title>Capture Screenshot of Website, Generate Thumbnail Image of Web Page, Convert HTML to Image.</title>
+<meta name="description" content="Websites screenshot is the .net 2.0 class library to generate thumbnail image from website url, create screenshot of web pages in your web or windows .net application, convert html to image in jpg, gif, png, bmp and tif." />
+<meta name="keywords" content="website screenshot generator dll, web page thumbnail maker .net dll, convert html to image in .net" />
+<link rel="stylesheet" href="style/basic.css" type="text/css" />
+</head>
+<body >
+<div id="wrapper">
+  <div id="header">
+    <div id="HeaderLogo"> <img src="style/images/logo.png" alt="Websites Screenshot Logo" /></div>
+  </div>
+  <ul id="tabs">
+    <li><a href="index.html" >Home</a></li>
+    <li><a href="usage.html" id="active" >Usage</a></li>
+    <li><a href="download.html" >Download</a></li>
+    <li><a href="purchase.html">Purchase</a></li>
+    <li><a href="contact.html">Contact</a></li>
+  </ul>
+  <div id="content">
+    <div id="breadcrumbs"> You are here: <a href="index.html"><strong>Home</strong></a> > <span id="breadcrumbsCurrentLocation">Usage</span> </div>
+    <h2 class="pageSectionHeading clear">Methods</h2>
+    <div id="FeaturesBox" >
+      <ul  type="square">
+        <strong>Methods to capture website page, render html.</strong>
+        <li><strong><a href="#cw">CaptureWebpage</a></strong>: Caputre screenshot of website page.</li>
+        <li><strong><a href="#ch">CaptureHTML</a></strong>: Render HTML code as image, Convert HTML to Image.</li>
+      </ul>
+      <br/>
+      <ul type="square">
+        <strong>Methods to access resulting image.</strong>
+        <li><strong><a href="#si">SaveImage</a></strong>: Save captured screenshot, thumbnail.</li>
+        <li><strong><a href="#gi">GetImage</a></strong>: Get captured screenshot in memory.</li>
+      </ul>
+      <br/>
+      <ul type="square">
+        <strong>Methods to access HTML document and others.</strong>
+        <li><strong><a href="#ghd">GetHtmlDocument</a></strong>: Get the HTML document object of the captured website page.</li>
+        <li><strong><a href="#gds">GetDocumentSource</a></strong>: Get the HTML source of the captured website page.</li>
+        <li><strong><a href="#gdt">GetDocumentTitle</a></strong>: Get the title of the captured website page.</li>
+        <li><strong><a href="#gdx">GetDocumentText</a></strong>: Get the text content of the captured website page.</li>
+        <li><strong><a href="#gdl">GetDocumentLinks</a></strong>: Get the URLs of links on the captured website page.</li>
+        <li><strong><a href="#gdi">GetDocumentImages</a></strong>: Get the URLs of images on the captured website page.</li>
+        <li><strong><a href="#gdf">GetDocumentFrames</a></strong>: Get the URLs of frames on the captured website page.</li>
+      </ul>
+      <br/>
+    </div>
+    <div id="ToTopBox"> <a href="#">to top</a> </div>
+    <h2 class="pageSectionHeading clear">Properties</h2>
+    <div id="FeaturesBox" > <strong>Options that affect <strong><a href="#cw">CaptureWebpage</a></strong> and <a href="#ch">CaptureHTML</a></strong> methods.</strong>
+      <ul  type="square">
+        <li><strong><a href="#cwp">BrowserWidth</a></strong>: Width of the browser.</li>
+        <li><strong><a href="#cwp">BrowserHeight</a></strong>: Height of the browser.</li>
+        <li><strong><a href="#cwp">TimeOutSeconds</a></strong>: Timeout for the process.</li>
+        <li><strong><a href="#cwp">DelaySeconds</a></strong>: Seconds for the delayed snapshot.</li>
+        <li><strong><a href="#cwp">NoActiveX</a></strong>: To disable activex on the page.</li>
+        <li><strong><a href="#cwp">NoJava</a></strong>: To disable java on the page.</li>
+        <li><strong><a href="#cwp">NoScripts</a></strong>: To disable scripts on the page.</li>
+        <li><strong><a href="#cwp">Force</a></strong>: Forcefully take the screenshot if timeout.</li>
+      </ul>
+    </div>
+    <br/>
+    <div id="FeaturesBox" > <strong>Options that affect <strong><a href="#si">SaveImage</a></strong> method.</strong>
+      <ul  type="square">
+        <li><strong><a href="#sip">ImageFormat</a></strong>: Format of the output image.</li>
+        <li><strong><a href="#sip">ImageWidth</a></strong>: Width of the output image.</li>
+        <li><strong><a href="#sip">ImageHeight</a></strong>: Height of the output image.</li>
+		<li><strong><a href="#sip">PreserveAspectRatio</a></strong>: Preserve aspect ratio when applying width or height to the output image.</li>
+        <li><strong><a href="#sip">JpegQuality</a></strong>: JPEG quality for the output image.</li>
+      </ul>
+    </div>
+	<br/>
+	<div id="FeaturesBox" > <strong>Options that affect <strong><a href="#gi">GetImage</a></strong> method.</strong>
+      <ul  type="square">
+        <li><strong><a href="#gip">ImageWidth</a></strong>: Width of the output image.</li>
+        <li><strong><a href="#gip">ImageHeight</a></strong>: Height of the output image.</li>
+		<li><strong><a href="#gip">PreserveAspectRatio</a></strong>: Preserve aspect ratio when applying width or height to the output image.</li>
+      </ul>
+    </div>
+    <div id="ToTopBox"> <a href="#">to top</a> </div>
+    <h2 class="pageSectionHeading clear">Methods description</h2>
+    <br/>
+    <div class="usage">
+      <table cellspacing="0" class="usage">
+        <tr class="alternateRow">
+          <th >Method</th>
+          <th>Description</th>
+        </tr>
+        <tr>
+          <td>CaptureWebpage</td>
+          <td><a name="cw" id="ops"></a><strong>Summary:</strong><br/>
+            Capture webpage from url or local path. <br/>
+            <strong>Parameters:</strong><br/>
+            strURL: Website page url or HTML/MHTML file path. <br/>
+            <strong>Return Value:</strong><br/>
+            WebsitesScreenshot.Result, result of the capturing process (Captured, Failed, Timeout). <br/>
+            <strong>Example:</strong> <br/>
+            CaptureWebpage("www.google.com");<br/>
+            CaptureWebpage("c:\mypage.html");<br/>
+          </td>
+        </tr>
+        <tr>
+          <td>CaptureWebpageAsync</td>
+          <td><strong>Summary:</strong><br/>
+            Asynchronize method to capture webpage from url or local path. <br/>
+            <strong>Parameters:</strong><br/>
+            strURL: Website page url or HTML/MHTML file path. <br/>
+            <strong>Return Value:</strong><br/>
+            Return value can be handled in CaptureResult event.<br/>
+            <strong>Example:</strong> <br/>
+            CaptureWebpageAsync("www.google.com");<br/>
+            CaptureWebpageAsync("c:\mypage.html");<br/>
+          </td>
+        </tr>
+        <tr>
+          <td>CaptureHTML</td>
+          <td><a name="ch" id="ops"></a><strong>Summary:</strong><br/>
+            Capture HTML code and convert it to image.<br/>
+            <strong>Parameters:</strong><br/>
+            strHTMLCode: HTML code.<br/>
+            <strong>Return Value:</strong><br/>
+            WebsitesScreenshot.Result, result of the capturing process (Captured, Failed, Timeout). <br/>
+            <strong>Example:</strong> <br/>
+            CaptureHTML("&lt;html&gt;&lt;body&gt;&lt;h1&gt; Hello world &lt;/h1&gt;&lt;/body&gt;&lt;/html&gt;"); </td>
+        </tr>
+        <tr>
+          <td>CaptureHTMLAsync</td>
+          <td><strong>Summary:</strong><br/>
+            Asynchronize method to capture HTML code and convert it to image.<br/>
+            <strong>Parameters:</strong><br/>
+            strHTMLCode: HTML code.<br/>
+            <strong>Return Value:</strong><br/>
+            Return value can be handled in CaptureResult event.<br/>
+            <strong>Example:</strong><br/>
+            CaptureHTMLAsync("&lt;html&gt;&lt;body&gt;&lt;h1&gt; Hello world &lt;/h1&gt;&lt;/body&gt;&lt;/html&gt;"); </td>
+        </tr>
+        <tr>
+          <td>SaveImage</td>
+          <td><a name="si" id="ops"></a><strong>Summary:</strong><br/>
+            Save the resulting image. <br/>
+            <strong>Parameters:</strong><br/>
+            strImageName: Output image name with full path. <br/>
+            <strong>Example:</strong> <br/>
+            SaveImage("c:\\mypage.jpg");<br/>
+          </td>
+        </tr>
+        <tr>
+          <td>GetImage</td>
+          <td><a name="gi" id="ops"></a><strong>Summary:</strong><br/>
+            Get the resulting image in memory.<br/>
+            <strong>Return Value:</strong><br/>
+            System.Drawing.Bitmap<br/>
+            <strong>Example:</strong> <br/>
+            System.Drawing.Bitmap  _Image;<br/>
+            _Image=_Obj.GetImage(); </td>
+        </tr>
+        <tr>
+          <td>GetHtmlDocument</td>
+          <td><a name="ghd" id="ops"></a><strong>Summary:</strong><br/>
+            Get HTML document object of the captured web page.<br/>
+            <strong>Return Value:</strong><br/>
+            mshtml.HTMLDocumentClass<br/>
+            <strong>Example:</strong><br/>
+            IHTMLDocument2 _HTMLDocument;<br/>
+            _HTMLDocument = _Obj.GetHtmlDocument();</td>
+        </tr>
+        <tr>
+          <td>GetDocumentSource</td>
+          <td><a name="gds" id="ops"></a><strong>Summary:</strong><br/>
+            Get HTML Source of the captured web page.<br/>
+            <strong>Return Value:</strong><br/>
+            System.String<br/>
+            <strong>Example:</strong> <br/>
+            System.String  _HTML;<br/>
+            _HTML=_Obj.GetDocumentSource(); </td>
+        </tr>
+        <tr>
+          <td>GetDocumentTitle</td>
+          <td><a name="gdt" id="ops"></a><strong>Summary:</strong><br/>
+            Get the title of the captured web page.<br/>
+            <strong>Return Value:</strong><br/>
+            System.String<br/>
+            <strong>Example:</strong> <br/>
+            System.String  _Title;<br/>
+            _Title=_Obj.GetDocumentTitle(); </td>
+        </tr>
+        <tr>
+          <td>GetDocumentText</td>
+          <td><a name="gdx" id="ops"></a><strong>Summary:</strong><br/>
+            Get the text content of the captured web page.<br/>
+            <strong>Return Value:</strong><br/>
+            System.String<br/>
+            <strong>Example:</strong> <br/>
+            System.String  _Text;<br/>
+            _Text=_Obj.GetDocumentText(); </td>
+        </tr>
+        <tr>
+          <td>GetDocumentLinks</td>
+          <td><a name="gdl" id="ops"></a><strong>Summary:</strong><br/>
+            Get the URLs of links on the captured web page.<br/>
+            <strong>Return Value:</strong><br/>
+            string[]<br/>
+            <strong>Example:</strong> <br/>
+            string[] _Links=null;<br/>
+            _Links=_Obj.GetDocumentLinks(); </td>
+        </tr>
+        <tr>
+          <td>GetDocumentImages</td>
+          <td><a name="gdi" id="ops"></a><strong>Summary:</strong><br/>
+            Get the URLs of images on the captured web page.<br/>
+            <strong>Return Value:</strong><br/>
+            string[]<br/>
+            <strong>Example:</strong> <br/>
+            string[] _Images=null;<br/>
+            _Images=_Obj.GetDocumentImages(); </td>
+        </tr>
+        <tr>
+          <td>GetDocumentFrames</td>
+          <td><a name="gdf" id="ops"></a><strong>Summary:</strong><br/>
+            Get the URLs of frames on the captured web page.<br/>
+            <strong>Return Value:</strong><br/>
+            string[]<br/>
+            <strong>Example:</strong> <br/>
+            string[] _Frames=null;<br/>
+            _Frames=_Obj.GetDocumentFrames(); </td>
+        </tr>
+      </table>
+    </div>
+    <div id="ToTopBox"> <a href="#">to top</a> </div>
+    <h2 class="pageSectionHeading clear">Even for asynchronize result</h2>
+    <br/>
+    <div class="usage">
+      <table cellspacing="0" class="usage">
+        <tr class="alternateRow">
+          <th >Event</th>
+          <th>Description</th>
+        </tr>
+        <tr>
+          <td>CaptureResult</td>
+          <td>Handle this event to get the result of CaptureWebpageAsync and CaptureHTMLAsync methods, get the result in  Enum Result (Values: Captured, Failed, Timeout)</td>
+        </tr>
+      </table>
+    </div>
+    <div id="ToTopBox"> <a href="#">to top</a> </div>
+    <a name="cwp" id="ops"></a>
+    <h2 class="pageSectionHeading clear">Properties for <strong><a href="#cw">CaptureWebpage</a></strong> and <strong><a href="#ch">CaptureHTML</a></strong> methods</h2>
+    <br/>
+    <div class="usage">
+      <table cellspacing="0" class="usage">
+        <tr class="alternateRow">
+          <th >Property</th>
+          <th>Description</th>
+          <th>Default Value</th>
+        </tr>
+        <td>BrowserWidth</td>
+          <td>Browser width</td>
+          <td>Automatically determined</td>
+        </tr>
+        <tr>
+          <td>BrowserHeight</td>
+          <td>Browser Height</td>
+          <td>Automatically determined</td>
+        </tr>
+        <tr>
+          <td>TimeOutSeconds</td>
+          <td>Timeout in seconds, timeout value for the process</td>
+          <td>120</td>
+        </tr>
+        <tr>
+          <td>DelaySeconds</td>
+          <td>Delay in seconds. After page loads, take screenshot after specified seconds. Useful for the page containing flash or other ActiveX </td>
+          <td>0</td>
+        </tr>
+        <tr>
+          <td>NoActiveX</td>
+          <td>Disable ActiveX on the page</td>
+          <td>False</td>
+        </tr>
+        <tr>
+          <td>NoJava</td>
+          <td>Disable Java on the page</td>
+          <td>False</td>
+        </tr>
+        <tr>
+          <td>NoScripts</td>
+          <td>Disable Scripts on the page</td>
+          <td>False</td>
+        </tr>
+        <tr>
+          <td>Force</td>
+          <td>Force to take screenshot if timeout</td>
+          <td>False</td>
+        </tr>
+      </table>
+    </div>
+    <div id="ToTopBox"> <a href="#">to top</a> </div>
+    <a name="sip" id="ops"></a>
+    <h2 class="pageSectionHeading clear">Properties for <strong><a href="#si">SaveImage</a></strong> method</h2>
+    <br/>
+    <div class="usage">
+      <table cellspacing="0" class="usage">
+        <tr class="alternateRow">
+          <th >Property</th>
+          <th>Description</th>
+          <th>Default Value</th>
+        </tr>
+        <tr>
+          <td>ImageFormat</td>
+          <td>Format of output image <br/>
+            Values: JPG, GIF, PNG, BMP, TIF </td>
+          <td>ImageFormats.JPG</td>
+        </tr>
+        <tr>
+          <td>ImageWidth</td>
+          <td>Width of the output image</td>
+          <td>Automatically determined</td>
+        </tr>
+        <tr>
+          <td>ImageHeight</td>
+          <td>Height of the output image</td>
+          <td>Automatically determined</td>
+        </tr>
+        <tr>
+          <td>PreserveAspectRatio</td>
+          <td>Preserve aspect ratio when applying width or height to the output image</td>
+          <td>False</td>
+        </tr>
+        <tr>
+          <td>JpegQuality</td>
+          <td>Jpeg quality for output image <br/>
+            Values: 0 to 100 </td>
+          <td>100</td>
+        </tr>
+      </table>
+    </div>
+    <div id="ToTopBox"> <a href="#">to top</a> </div>
+    <a name="gip" id="ops"></a>
+    <h2 class="pageSectionHeading clear">Properties for <strong><a href="#gi">GetImage</a></strong> method</h2>
+    <br/>
+    <div class="usage">
+      <table cellspacing="0" class="usage">
+        <tr class="alternateRow">
+          <th >Property</th>
+          <th>Description</th>
+          <th>Default Value</th>
+        </tr>
+        <tr>
+          <td>ImageWidth</td>
+          <td>Width of the output image</td>
+          <td>Automatically determined</td>
+        </tr>
+        <tr>
+          <td>ImageHeight</td>
+          <td>Height of the output image</td>
+          <td>Automatically determined</td>
+        </tr>
+        <tr>
+          <td>PreserveAspectRatio</td>
+          <td>Preserve aspect ratio when applying width or height to the output image</td>
+          <td>False</td>
+        </tr>
+      </table>
+    </div>
+    <div id="ToTopBox"> <a href="#">to top</a> </div>
+    <h2 class="pageSectionHeading clear">Sample Code</h2>
+    <!--Sample 1 -------------------------------------------------->
+    <p>The following code sample shows <strong>how to create full size PNG screenshot from a website page url</strong>.<br/>
+      VB .Net code.</p>
+    <div id="CodePage">
+      <pre>    
+Dim _Obj As New WebsitesScreenshot.WebsitesScreenshot
+Dim _Result As WebsitesScreenshot.WebsitesScreenshot.Result
+With _Obj
+	_Result = .CaptureWebpage("http://www.google.com")
+	If _Result = WebsitesScreenshot.WebsitesScreenshot. _
+				Result.Captured Then
+		.ImageFormat = WebsitesScreenshot. _
+				WebsitesScreenshot.ImageFormats.PNG
+		.SaveImage("c:\google.png")
+	End If
+End With
+_Obj.Dispose()
+</pre>
+    </div>
+    <br/>
+    <p>C# .Net Code.</p>
+    <div id="CodePage">
+      <pre>    
+WebsitesScreenshot.WebsitesScreenshot  _Obj;
+_Obj = new WebsitesScreenshot.WebsitesScreenshot ();
+WebsitesScreenshot.WebsitesScreenshot.Result _Result;
+_Result = _Obj.CaptureWebpage("http://www.google.com");
+if (_Result == WebsitesScreenshot.WebsitesScreenshot.Result.Captured)
+{
+	_Obj.ImageFormat = WebsitesScreenshot.
+		WebsitesScreenshot.ImageFormats.PNG;
+	_Obj.SaveImage ("c:\\google.png");
+}            
+_Obj.Dispose();
+</pre>
+    </div>
+    <br/>
+    <!--Sample 2 -------------------------------------------------->
+    <p>The following code sample shows <strong>how to convert local html/mhtml file to image</strong>.<br/>
+      VB .Net code.</p>
+    <div id="CodePage">
+      <pre>    
+Dim _Obj As New WebsitesScreenshot.WebsitesScreenshot
+Dim _Result As WebsitesScreenshot.WebsitesScreenshot.Result
+With _Obj
+	_Result = .CaptureWebpage("c:\myhtml.html")
+	If _Result = WebsitesScreenshot.WebsitesScreenshot. _
+					Result.Captured Then
+		.ImageFormat = WebsitesScreenshot. _
+				WebsitesScreenshot.ImageFormats.BMP
+		.SaveImage("c:\test.bmp")
+	End If
+End With
+_Obj.Dispose()
+</pre>
+    </div>
+    <br/>
+    <p>C# .Net code.</p>
+    <div id="CodePage">
+      <pre>    
+WebsitesScreenshot.WebsitesScreenshot _Obj;
+_Obj=new WebsitesScreenshot.WebsitesScreenshot();
+WebsitesScreenshot.WebsitesScreenshot.Result _Result;
+_Result = _Obj.CaptureWebpage("c:\\myhtml.html");
+if (_Result == WebsitesScreenshot.WebsitesScreenshot.Result.Captured)
+{
+	_Obj.ImageFormat = WebsitesScreenshot.
+		WebsitesScreenshot.ImageFormats.BMP;
+	_Obj.SaveImage("c:\\test.bmp"); 
+}
+_Obj.Dispose();
+</pre>
+    </div>
+    <br/>
+    <!--Sample 3 -------------------------------------------------->
+    <p>The following code sample shows <strong>how to render html</strong> code to gif.<br/>
+      VB .Net code.</p>
+    <div id="CodePage">
+      <pre>    
+Dim _Obj As New WebsitesScreenshot.WebsitesScreenshot
+Dim _Result As WebsitesScreenshot.WebsitesScreenshot.Result
+With _Obj
+	_Result = .CaptureHTML( _
+"&lt;html&gt;&lt;body&gt;&lt;h1&gt; Hello world &lt;/h1&gt;&lt;/body&gt;&lt;/html&gt;")
+	If _Result = WebsitesScreenshot.WebsitesScreenshot. _
+				Result.Captured Then
+		.ImageFormat = WebsitesScreenshot. _
+				WebsitesScreenshot.ImageFormats.GIF
+		.SaveImage("c:\test.gif")
+	End If
+End With
+_Obj.Dispose()
+</pre>
+    </div>
+    <br/>
+    <p>C# .Net code.</p>
+    <div id="CodePage">
+      <pre>    
+WebsitesScreenshot.WebsitesScreenshot _Obj;
+_Obj=new WebsitesScreenshot.WebsitesScreenshot();
+WebsitesScreenshot.WebsitesScreenshot.Result _Result;
+_Result = _Obj.CaptureHTML(
+"&lt;html&gt;&lt;body&gt;&lt;h1&gt; Hello world &lt;/h1&gt;&lt;/body&gt;&lt;/html&gt;");
+if (_Result == WebsitesScreenshot.WebsitesScreenshot.Result.Captured)
+{
+	_Obj.ImageFormat = WebsitesScreenshot.
+		WebsitesScreenshot.ImageFormats.GIF;
+	_Obj.SaveImage("c:\\test.gif");
+}
+_Obj.Dispose();
+</pre>
+    </div>
+    <br/>
+    <!--Sample 4 -------------------------------------------------->
+    <p>The following code sample shows <strong>how to get the resulting image in the memory</strong>.<br/>
+      VB .Net code.</p>
+    <div id="CodePage">
+      <pre>    
+Dim _Obj As New WebsitesScreenshot.WebsitesScreenshot
+Dim _Result As WebsitesScreenshot.WebsitesScreenshot.Result
+Dim _MyBitmap As System.Drawing.Bitmap
+With _Obj
+	_Result = .CaptureWebpage("www.google.com")
+	If _Result = WebsitesScreenshot.WebsitesScreenshot. _
+			Result.Captured Then
+		_MyBitmap = .GetImage
+	End If
+End With
+_Obj.Dispose()
+</pre>
+    </div>
+    <br/>
+    <p>C# .Net code.</p>
+    <div id="CodePage">
+      <pre>    
+WebsitesScreenshot.WebsitesScreenshot _Obj;
+_Obj=new WebsitesScreenshot.WebsitesScreenshot();
+WebsitesScreenshot.WebsitesScreenshot.Result _Result;
+System.Drawing.Bitmap _MyBitmap;
+_Result = _Obj.CaptureWebpage("www.google.com");
+if (_Result == WebsitesScreenshot.WebsitesScreenshot.Result.Captured)
+{
+	_MyBitmap = _Obj.GetImage();
+}
+_Obj.Dispose();
+			</pre>
+    </div>
+    <br/>
+    <!--Sample 5 -------------------------------------------------->
+    <p>The following code sample shows <strong>how to capture website with flash content, which takes time to load</strong>.<br/>
+      VB .Net code.</p>
+    <div id="CodePage">
+      <pre>    
+Dim _Obj As New WebsitesScreenshot.WebsitesScreenshot
+Dim _Result As WebsitesScreenshot.WebsitesScreenshot.Result
+With _Obj
+	.DelaySeconds = 30
+	_Result = .CaptureWebpage("www.SiteWithFlash.com")
+	If _Result = WebsitesScreenshot.WebsitesScreenshot. _
+			Result.Captured Then
+		.SaveImage("c:\test.jpg")
+	End If
+End With
+_Obj.Dispose()
+</pre>
+    </div>
+    <br/>
+    <p>C# .Net code.</p>
+    <div id="CodePage">
+      <pre>    
+WebsitesScreenshot.WebsitesScreenshot _Obj;
+_Obj=new WebsitesScreenshot.WebsitesScreenshot();
+WebsitesScreenshot.WebsitesScreenshot.Result _Result;
+_Obj.DelaySeconds = 30;
+_Result = _Obj.CaptureWebpage("www.SiteWithFlash.com");
+if (_Result == WebsitesScreenshot.WebsitesScreenshot.Result.Captured)
+{
+	_Obj.SaveImage("c:\\test.jpg");
+}
+_Obj.Dispose();
+</pre>
+    </div>
+    <br/>
+    <!--Sample 6 -------------------------------------------------->
+    <p>The following code sample shows <strong>how to generate website page thumbnail image</strong> (asynchronize).<br/>
+      VB .Net code.</p>
+    <div id="CodePage">
+      <pre>    
+Dim WithEvents __AsyncWebsitesScreenshot As New _
+	WebsitesScreenshot.WebsitesScreenshot
+Private Sub Button4_Click(ByVal sender As System.Object, _
+	ByVal e As System.EventArgs) Handles Button4.Click
+	With __AsyncWebsitesScreenshot
+		.CaptureWebpageAsync("www.google.com")
+	End With
+End Sub
+Private Sub __AsyncWebsitesScreenshot_CaptureWebpageResult _
+(ByVal pResult As WebsitesScreenshot.WebsitesScreenshot.Result) _ 
+		Handles __AsyncWebsitesScreenshot.CaptureResult
+	If pResult = WebsitesScreenshot.WebsitesScreenshot. _
+			Result.Captured Then
+		With __AsyncWebsitesScreenshot
+			.ImageWidth = 100
+			.ImageHeight = 100
+			.SaveImage("c:\google.jpg")
+		End With
+	End If
+End Sub
+	</pre>
+    </div>
+    <br/>
+    <p>C# .Net code.</p>
+    <div id="CodePage">
+      <pre>    
+private WebsitesScreenshot.WebsitesScreenshot __AsyncWebsitesScreenshot; 
+
+private void button4_Click(object sender, EventArgs e)
+{
+	__AsyncWebsitesScreenshot = new WebsitesScreenshot.
+					WebsitesScreenshot();
+	__AsyncWebsitesScreenshot.CaptureResult += new 
+		WebsitesScreenshot.WebsitesScreenshot
+		.CaptureResultEventHandler(
+			__AsyncWebsitesScreenshot_CaptureWebpageResult);
+	__AsyncWebsitesScreenshot.CaptureWebpageAsync("www.google.com");
+}
+private void __AsyncWebsitesScreenshot_CaptureWebpageResult
+	(WebsitesScreenshot.WebsitesScreenshot.Result pResult)
+{
+	if (pResult == WebsitesScreenshot.
+		WebsitesScreenshot.Result.Captured)
+	{
+		__AsyncWebsitesScreenshot.ImageWidth = 100;
+		__AsyncWebsitesScreenshot.ImageHeight= 200;
+		__AsyncWebsitesScreenshot.SaveImage ("c:\\google.jpg");
+	}            
+}
+</pre>
+    </div>
+    <div class="clear"></div>
+    <div id="ToTopBox"> <a href="#">to top</a> </div>
+
+
+
+
+  </div>
+  <div id="OtherLink">
+    <h2 class="pageSectionHeading2 clear">Looking For</h2>
+    <p> <a href="http://www.webpagethumbnailer.com" ><strong>Desktop Application</strong> <br/>
+      HTML/MHTML to Image in Batch,<br/>
+      Make Webpage Screenshots,<br/>
+      Generate Website Thumbnails,<br/>
+      Click here.</a></p>
+    <p> <a href="http://www.converthtmltoimage.com" ><strong>Command Line Tool</strong> <br/>
+      HTML/MHTML to Image in Batch, <br/>
+      Generate Website Thumbnails, <br/>
+      Create Webpage Screenshots, <br/>
+      Click here.</a> </p>
+  </div>
+  <div class="clear"></div>
+  <div id="footer">
+    <p>Copyright &copy; 2024 <aa href="http://frameworkteam.com/" target="_blank">FrameworkTeam Softwares</a>, All rights reserved.</p>
+    <p><a href="https://www.frameworkteam.com/terms-of-use.html" target="_blank">Terms of Use</a> |
+        <a href="https://www.frameworkteam.com/privacy-policy.html" target="_blank">Privacy Policy</a></p>
+  </div>
+</div>
+<script src="http://www.google-analytics.com/urchin.js" type="text/javascript">
+</script>
+<script type="text/javascript">
+_uacct = "UA-2785940-2";
+urchinTracker();
+</script>
+</body>
+</html>

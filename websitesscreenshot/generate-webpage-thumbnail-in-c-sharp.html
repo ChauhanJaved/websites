@@ -1,0 +1,106 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<title>How to Generate Thumbnail Image of Webpage in C-Sharp ?</title>
+<meta name="description" content="Websites screenshot is the .net 2.0 class library to generate thumbnail image from website url, create screenshot of web pages in your web or windows .net application, convert html to image in jpg, gif, png, bmp and tif." />
+<meta name="keywords" content="website screenshot generator dll, web page thumbnail maker .net dll, convert html to image in .net" />
+<link rel="stylesheet" href="style/basic.css" type="text/css" />
+</head>
+<body >
+<div id="wrapper">
+  <div id="header">
+    <div id="HeaderLogo"> <img src="style/images/logo.png" alt="Websites Screenshot Logo" /></div>
+  </div>
+  <ul id="tabs">
+    <li><a href="index.html" id="active" >Home</a></li>
+    <li><a href="usage.html"  >Usage</a></li>
+    <li><a href="download.html" >Download</a></li>
+    <li><a href="purchase.html">Purchase</a></li>
+    <li><a href="contact.html">Contact</a></li>
+  </ul>
+  <div id="content">
+    <div id="breadcrumbs"> You are here: <a href="index.html"><strong>Home</strong></a> > <span id="breadcrumbsCurrentLocation">Generate Thumbnail of Webpage in C#</span> </div>
+    <h2 class="pageSectionHeading clear">How to Generate Thumbnail Image of Webpage in .net C-Sharp ?</h2>
+    <p>This article shows you a solution for generating webpage thumbnail image from URL.</p>
+    <div id="CenterContentWithMargin">
+      <div id="FeaturesBox" >
+        <ul  type="square">
+          <p>
+          <LI>Step 1: Download the <a href="download.html">Websites Screenshot .Net Component</a>.</LI>
+          </p>
+          <p>
+          <LI>Step 2: Install it on your computer. You will get the <strong>WebsitesScreenshot.dll</strong> component in the folder.</LI>
+          </p>
+          <p>
+          <LI>Step 3: Open your visual studio project, add this dll in your project references and try the following sample code.</LI>
+          </p>
+        </ul>
+      </div>
+      <br/>
+    </div>
+    <p>The following code sample shows how to create thumbnail image of the website page from webpage URL. If you specify the width of the thumbnail, the height will be calculated automatically. It preserves the original aspect ratio. If you specify the height of the thumbnail the width will be calculated automatically.</p>
+    <p>C# .Net Code.</p>
+    <div id="CodePage">
+      <pre>    
+WebsitesScreenshot.WebsitesScreenshot _Obj;
+_Obj=new WebsitesScreenshot.WebsitesScreenshot();
+WebsitesScreenshot.WebsitesScreenshot.Result _Result;
+_Result = _Obj.CaptureWebpage("www.WebsitesScreenshot.com");
+if (_Result == WebsitesScreenshot.WebsitesScreenshot.Result.Captured)
+{
+	_Obj.PreserveAspectRatio = true;
+	_Obj.ImageWidth = 100;
+	_Obj.SaveImage("c:\\WebsitesScreenshot.jpg");
+}
+_Obj.Dispose();
+</pre>
+    </div>
+    <br/>
+    <p>VB .Net code.</p>
+    <div id="CodePage">
+      <pre>    
+Dim _Obj As New WebsitesScreenshot.WebsitesScreenshot
+Dim _Result As WebsitesScreenshot.WebsitesScreenshot.Result
+With _Obj
+	_Result = .CaptureWebpage("www.WebsitesScreenshot.com")
+	If _Result = WebsitesScreenshot.WebsitesScreenshot. _
+						Result.Captured Then
+		.PreserveAspectRatio = True
+		.ImageWidth = 100
+		.SaveImage("c:\WebsitesScreenshot.jpg")
+	End If
+End With
+_Obj.Dispose()
+</pre>
+    </div>
+    <br/>
+  </div>
+  <div id="OtherLink">
+    <h2 class="pageSectionHeading2 clear">Looking For</h2>
+    <p> <a href="http://www.webpagethumbnailer.com" ><strong>Desktop Application</strong> <br/>
+      HTML/MHTML to Image in Batch,<br/>
+      Make Webpage Screenshots,<br/>
+      Generate Website Thumbnails,<br/>
+      Click here.</a></p>
+    <p> <a href="http://www.converthtmltoimage.com" ><strong>Command Line Tool</strong> <br/>
+      HTML/MHTML to Image in Batch, <br/>
+      Generate Website Thumbnails, <br/>
+      Create Webpage Screenshots, <br/>
+      Click here.</a> </p>
+  </div>
+  <div class="clear"></div>
+  <div id="footer">
+    <p>Copyright &copy; 2024 <aa href="http://frameworkteam.com/" target="_blank">FrameworkTeam Softwares</a>, All rights reserved.</p>
+    <p><a href="https://www.frameworkteam.com/terms-of-use.html" target="_blank">Terms of Use</a> |
+        <a href="https://www.frameworkteam.com/privacy-policy.html" target="_blank">Privacy Policy</a></p>
+  </div>
+</div>
+<script src="http://www.google-analytics.com/urchin.js" type="text/javascript">
+</script>
+<script type="text/javascript">
+_uacct = "UA-2785940-2";
+urchinTracker();
+</script>
+</body>
+</html>
