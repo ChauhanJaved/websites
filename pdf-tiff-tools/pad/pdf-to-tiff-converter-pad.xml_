@@ -1,0 +1,250 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<XML_DIZ_INFO>
+	<MASTER_PAD_VERSION_INFO>
+		<MASTER_PAD_VERSION>3.11</MASTER_PAD_VERSION>
+		<MASTER_PAD_EDITOR>PADGen 3.1.1.50 http://www.padgen.org</MASTER_PAD_EDITOR>
+		<MASTER_PAD_INFO>Portable Application Description, or PAD for short, is a data set that is used by shareware authors to disseminate information to anyone interested in their software products. To find out more go to http://pad.asp-software.org</MASTER_PAD_INFO>
+	</MASTER_PAD_VERSION_INFO>
+	<Company_Info>
+		<Company_Name>PDF-TIFF-Tools</Company_Name>
+		<Address_1>C/28 Classic Park Soc</Address_1>
+		<Address_2>Sarkhej Road</Address_2>
+		<City_Town>Ahmedabad</City_Town>
+		<State_Province>Gujrat</State_Province>
+		<Zip_Postal_Code>380055</Zip_Postal_Code>
+		<Country>India</Country>
+		<Company_WebSite_URL>http://www.PDF-TIFF-Tools.com</Company_WebSite_URL>
+		<Contact_Info>
+			<Author_First_Name>Admin</Author_First_Name>
+			<Author_Last_Name>Admin</Author_Last_Name>
+			<Author_Email>Support@PDF-TIFF-Tools.com</Author_Email>
+			<Contact_First_Name>Admin</Contact_First_Name>
+			<Contact_Last_Name>Admin</Contact_Last_Name>
+			<Contact_Email>Support@PDF-TIFF-Tools.com</Contact_Email>
+		</Contact_Info>
+		<Support_Info>
+			<Sales_Email>Support@PDF-TIFF-Tools.com</Sales_Email>
+			<Support_Email>Support@PDF-TIFF-Tools.com</Support_Email>
+			<General_Email>Support@PDF-TIFF-Tools.com</General_Email>
+			<Sales_Phone />
+			<Support_Phone />
+			<General_Phone />
+			<Fax_Phone />
+		</Support_Info>
+	</Company_Info>
+	<Program_Info>
+		<Program_Name>PDF to TIFF Converter</Program_Name>
+		<Program_Version>1.3</Program_Version>
+		<Program_Release_Month>09</Program_Release_Month>
+		<Program_Release_Day>29</Program_Release_Day>
+		<Program_Release_Year>2012</Program_Release_Year>
+		<Program_Cost_Dollars>24.95</Program_Cost_Dollars>
+		<Program_Cost_Other_Code />
+		<Program_Cost_Other />
+		<Program_Type>Shareware</Program_Type>
+		<Program_Release_Status>Minor Update</Program_Release_Status>
+		<Program_Install_Support>Install and Uninstall</Program_Install_Support>
+		<Program_OS_Support>Win7 x32,Win7 x64,WinVista,WinVista x64,WinXP</Program_OS_Support>
+		<Program_Language>English</Program_Language>
+		<Program_Change_Info />
+		<Program_Specific_Category>Graphics</Program_Specific_Category>
+		<Program_Category_Class>Graphic Apps::Converters &amp; Optimizers</Program_Category_Class>
+		<Program_System_Requirements />
+		<File_Info>
+			<File_Size_Bytes>233728</File_Size_Bytes>
+			<File_Size_K>228</File_Size_K>
+			<File_Size_MB>0.22</File_Size_MB>
+		</File_Info>
+		<Expire_Info>
+			<Has_Expire_Info>Y</Has_Expire_Info>
+			<Expire_Count>15</Expire_Count>
+			<Expire_Based_On>Days</Expire_Based_On>
+			<Expire_Other_Info />
+			<Expire_Month />
+			<Expire_Day />
+			<Expire_Year />
+		</Expire_Info>
+	</Program_Info>
+	<Program_Descriptions>
+		<English>
+			<Keywords>convert pdf to tif, pdf to tiff, pdf to image</Keywords>
+			<Char_Desc_45>PDF to TIFF Convert</Char_Desc_45>
+			<Char_Desc_80>PDF to TIFF Convert is a windows tool to convert PDF document to TIF in batch.</Char_Desc_80>
+			<Char_Desc_250>PDF to TIFF Convert is a windows tool to convert PDF document to TIF in batch. It can convert PDF to multi page tiff file. It supports compression of tiff image such as LZW, PackBits, RLE, CCITT Group3, CCITT Group4 etc.</Char_Desc_250>
+			<Char_Desc_450>PDF to TIFF Convert is a windows tool to convert PDF document to TIF in batch. It can convert PDF to multi page tiff file. It supports compression of tiff image such as LZW, PackBits, RLE, CCITT Group3, CCITT Group4 etc. Key Features: * Quickly convert PDF document to TIF format. * Supports batch PDF to TIF conversion. * Supports generate multi page tiff files. * Supports outputting result pages to be customized.</Char_Desc_450>
+			<Char_Desc_2000>PDF to TIFF Convert is a windows tool to convert PDF document to TIF in batch. It can convert PDF to multi page tiff file. It supports compression of tiff image such as LZW, PackBits, RLE, CCITT Group3, CCITT Group4 etc.
+
+ Key Features:
+    * Quickly convert PDF document to TIF format.
+    * Supports batch PDF to TIF conversion.
+    * Supports generate multi page tiff files.
+    * Supports outputting result pages to be customized.
+    * Supports encrypted PDF file.
+    * Supports conversion of vector graphics into tiff files.
+    * Supports conversion into 32-bit, 24-bit, 12-bit, 8-bit gray format image.
+    * Supports compression of tiff image, such as LZW, PackBits, RLE, CCITT Group3, CCITT Group4 etc.
+    * Supports any resolution in the generated Image files.
+    * Supports drag and drop of files.
+    * It does not require Adobe Acrobat or Reader support.
+
+</Char_Desc_2000>
+		</English>
+	</Program_Descriptions>
+	<Web_Info>
+		<Application_URLs>
+			<Application_Info_URL>http://www.PDF-TIFF-Tools.com/PDF-to-TIFF-Converter.html</Application_Info_URL>
+			<Application_Order_URL>http://www.PDF-TIFF-Tools.com/Purchase-PDF-to-TIFF-Converter.html</Application_Order_URL>
+			<Application_Screenshot_URL>http://www.PDF-TIFF-Tools.com/Images/PDF-to-TIFF-Converter.jpg</Application_Screenshot_URL>
+			<Application_Icon_URL>http://www.PDF-TIFF-Tools.com/Images/PDF-to-TIFF-Converter.png</Application_Icon_URL>
+			<Application_XML_File_URL>http://www.PDF-TIFF-Tools.com/PAD/PDF-to-TIFF-Converter-PAD.xml</Application_XML_File_URL>
+		</Application_URLs>
+		<Download_URLs>
+			<Primary_Download_URL>http://www.PDF-TIFF-Tools.com/Downloads/PDF-to-TIFF-Converter-Setup.exe</Primary_Download_URL>
+			<Secondary_Download_URL />
+			<Additional_Download_URL_1 />
+			<Additional_Download_URL_2 />
+		</Download_URLs>
+	</Web_Info>
+	<Permissions>
+		<Distribution_Permissions />
+		<EULA>PDF to TIFF Converter License Agreement
+
+PLEASE READ THESE TERMS AND CONDITIONS CAREFULLY:
+
+The PDF to TIFF Converter is distributed as try before you buy. This means:
+1.	All copyrights to PDF to TIFF Converter are exclusively owned by PDF-TIFF-Tools.com
+
+2.	Anyone may use this software during a test period of 30 days. Following this test period of 30 days or less, if you wish to continue to use PDF to TIFF Converter, you must register.
+
+3.	The PDF to TIFF Converter unregistered trial version may be freely distributed, with exceptions noted below, provided the distribution package is not modified in any way.
+a.	No person or company may distribute separate parts of the package without written permission of the copyright owner.
+b.	The PDF to TIFF Converter unregistered trial version may not be distributed inside of any other software package without written permission of the copyright owner.
+c.	Hacks/cracks, keys or key generators may not be included on the same distribution.         
+
+4.	THE PDF TO TIFF CONVERTER IS DISTRIBUTED “AS IS”. NO WARRANTY OF ANY KIND IS EXPRESSED OR IMPLIED. YOU USE AT YOUR OWN RISK.  NEITHER THE AUTHOR NOR THE AGENTS OF THE AUTHOR WILL BE LIABLE FOR DATA LOSS, DAMAGES, LOSS OF PROFITS OR ANY OTHER KIND OF LOSS WHILE USING OR MISUSING THIS SOFTWARE.
+
+5.	You may not use, copy, emulate, clone, rent, lease, sell, modify, decompile, disassemble, otherwise reverse engineer, or transfer the licensed program, or any subset of the licensed program, except as provided for in this agreement. Any such unauthorized use shall result in immediate and automatic termination of this license and may result in criminal and/or civil prosecution. All rights not expressly granted here are reserved by PDF-TIFF-Tools.com.
+
+6.	Installing and using PDF to TIFF Converter signifies acceptance of these terms and conditions of the license.
+
+7.	If you do not agree with the terms of this license you must remove PDF to TIFF Converter files from your storage devices and cease to use the product.
+
+Thank you for using PDF to TIFF Converter.
+</EULA>
+	</Permissions>
+	<Affiliates>
+		<Affiliates_FORM>Y</Affiliates_FORM>
+		<Affiliates_VERSION>1.4</Affiliates_VERSION>
+		<Affiliates_URL>http://pad.asp-software.org/extensions/Affiliates.htm</Affiliates_URL>
+		<Affiliates_Information_Page>https://www.plimus.com/jsp/new_developer.jsp?type=AFFILIATE&amp;referringDeveloperId=88404&amp;referringContractId=2019426</Affiliates_Information_Page>
+		<Affiliates_Avangate_Order_Page />
+		<Affiliates_Avangate_Vendor_ID />
+		<Affiliates_Avangate_Product_ID />
+		<Affiliates_Avangate_Maximum_Commission_Rate />
+		<Affiliates_BMTMicro_Order_Page />
+		<Affiliates_BMTMicro_Vendor_ID />
+		<Affiliates_BMTMicro_Product_ID />
+		<Affiliates_BMTMicro_Maximum_Commission_Rate />
+		<Affiliates_Cleverbridge_Order_Page />
+		<Affiliates_Cleverbridge_Vendor_ID />
+		<Affiliates_Cleverbridge_Product_ID />
+		<Affiliates_Cleverbridge_Maximum_Commission_Rate />
+		<Affiliates_clixGalore_Order_Page />
+		<Affiliates_clixGalore_Vendor_ID />
+		<Affiliates_clixGalore_Product_ID />
+		<Affiliates_clixGalore_Maximum_Commission_Rate />
+		<Affiliates_CommissionJunction_Order_Page />
+		<Affiliates_CommissionJunction_Vendor_ID />
+		<Affiliates_CommissionJunction_Product_ID />
+		<Affiliates_CommissionJunction_Maximum_Commission_Rate />
+		<Affiliates_DigiBuy_Order_Page />
+		<Affiliates_DigiBuy_Vendor_ID />
+		<Affiliates_DigiBuy_Product_ID />
+		<Affiliates_DigiBuy_Maximum_Commission_Rate />
+		<Affiliates_DigitalCandle_Order_Page />
+		<Affiliates_DigitalCandle_Vendor_ID />
+		<Affiliates_DigitalCandle_Product_ID />
+		<Affiliates_DigitalCandle_Maximum_Commission_Rate />
+		<Affiliates_Emetrix_Order_Page />
+		<Affiliates_Emetrix_Vendor_ID />
+		<Affiliates_Emetrix_Product_ID />
+		<Affiliates_Emetrix_Maximum_Commission_Rate />
+		<Affiliates_eSellerate_Order_Page />
+		<Affiliates_eSellerate_Vendor_ID />
+		<Affiliates_eSellerate_Product_ID />
+		<Affiliates_eSellerate_Maximum_Commission_Rate />
+		<Affiliates_iPortis_Order_Page />
+		<Affiliates_iPortis_Vendor_ID />
+		<Affiliates_iPortis_Product_ID />
+		<Affiliates_iPortis_Maximum_Commission_Rate />
+		<Affiliates_Kagi_Order_Page />
+		<Affiliates_Kagi_Vendor_ID />
+		<Affiliates_Kagi_Product_ID />
+		<Affiliates_Kagi_Maximum_Commission_Rate />
+		<Affiliates_LinkShare_Order_Page />
+		<Affiliates_LinkShare_Vendor_ID />
+		<Affiliates_LinkShare_Product_ID />
+		<Affiliates_LinkShare_Maximum_Commission_Rate />
+		<Affiliates_NorthStarSol_Order_Page />
+		<Affiliates_NorthStarSol_Vendor_ID />
+		<Affiliates_NorthStarSol_Product_ID />
+		<Affiliates_NorthStarSol_Maximum_Commission_Rate />
+		<Affiliates_OneNetworkDirect_Order_Page />
+		<Affiliates_OneNetworkDirect_Vendor_ID />
+		<Affiliates_OneNetworkDirect_Product_ID />
+		<Affiliates_OneNetworkDirect_Maximum_Commission_Rate />
+		<Affiliates_Order1_Order_Page />
+		<Affiliates_Order1_Vendor_ID />
+		<Affiliates_Order1_Product_ID />
+		<Affiliates_Order1_Maximum_Commission_Rate />
+		<Affiliates_Osolis_Order_Page />
+		<Affiliates_Osolis_Vendor_ID />
+		<Affiliates_Osolis_Product_ID />
+		<Affiliates_Osolis_Maximum_Commission_Rate />
+		<Affiliates_Plimus_Order_Page>https://www.plimus.com/jsp/buynow.jsp?contractId=2019426</Affiliates_Plimus_Order_Page>
+		<Affiliates_Plimus_Vendor_ID>88404</Affiliates_Plimus_Vendor_ID>
+		<Affiliates_Plimus_Product_ID>2019426</Affiliates_Plimus_Product_ID>
+		<Affiliates_Plimus_Maximum_Commission_Rate>30%</Affiliates_Plimus_Maximum_Commission_Rate>
+		<Affiliates_Regnet_Order_Page />
+		<Affiliates_Regnet_Vendor_ID />
+		<Affiliates_Regnet_Product_ID />
+		<Affiliates_Regnet_Maximum_Commission_Rate />
+		<Affiliates_Regnow_Order_Page />
+		<Affiliates_Regnow_Vendor_ID />
+		<Affiliates_Regnow_Product_ID />
+		<Affiliates_Regnow_Maximum_Commission_Rate />
+		<Affiliates_Regsoft_Order_Page />
+		<Affiliates_Regsoft_Vendor_ID />
+		<Affiliates_Regsoft_Product_ID />
+		<Affiliates_Regsoft_Maximum_Commission_Rate />
+		<Affiliates_ShareIt_Order_Page />
+		<Affiliates_ShareIt_Vendor_ID />
+		<Affiliates_ShareIt_Product_ID />
+		<Affiliates_ShareIt_Maximum_Commission_Rate />
+		<Affiliates_Shareasale_Order_Page />
+		<Affiliates_Shareasale_Vendor_ID />
+		<Affiliates_Shareasale_Product_ID />
+		<Affiliates_Shareasale_Maximum_Commission_Rate />
+		<Affiliates_SWReg_Order_Page />
+		<Affiliates_SWReg_Vendor_ID />
+		<Affiliates_SWReg_Product_ID />
+		<Affiliates_SWReg_Maximum_Commission_Rate />
+		<Affiliates_V-Share_Order_Page />
+		<Affiliates_V-Share_Vendor_ID />
+		<Affiliates_V-Share_Product_ID />
+		<Affiliates_V-Share_Maximum_Commission_Rate />
+		<Affiliates_VFree_Order_Page />
+		<Affiliates_VFree_Vendor_ID />
+		<Affiliates_VFree_Product_ID />
+		<Affiliates_VFree_Maximum_Commission_Rate />
+		<Affiliates_Yaskifo_Order_Page />
+		<Affiliates_Yaskifo_Vendor_ID />
+		<Affiliates_Yaskifo_Product_ID />
+		<Affiliates_Yaskifo_Maximum_Commission_Rate />
+	</Affiliates>
+	<ASP>
+		<ASP_FORM>Y</ASP_FORM>
+		<ASP_Member>N</ASP_Member>
+		<ASP_Member_Number />
+	</ASP>
+</XML_DIZ_INFO>

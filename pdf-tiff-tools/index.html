@@ -1,86 +1,334 @@
-<!DOCTYPE html>
-<html lang="en">
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
-    <!-- Favicons -->
-	<link href="img/favicon.ico" rel="icon">
-	<link href="img/apple-touch-icon.png" rel="apple-touch-icon">
-
-    <title>PDF and TIFF Tools</title>
-    <!--Bootstrap CDN Link for CSS-->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-    <!-- Main Stylesheet File -->
-	<link href="css/style.css" rel="stylesheet">
+    <title>PDF to TIFF | TIFF to PDF | PDF Splitter | PDF Merger | TIFF Splitter | TIFF Combiner | MS Office to PDF</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+    <meta name="description" content="PDF TIFF Tools" />
+    <meta name="keywords" content="pdf to image, pdf to tiff, pdf to jpg converter, PDF Split Merge, TIFF Split Merge" />
+    <link rel="stylesheet" href="style/basic.css" type="text/css" />
 </head>
+
 <body>
-
-
-    <nav class="navbar navbar-expand-lg bg-body-tertiary">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="#">FrameworkTeam</a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-              <li class="">
-                <a class="nav-link active" aria-current="page" href="#">Home</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Link</a>
-              </li>
-              <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                  Dropdown
-                </a>
-                <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="#">Action</a></li>
-                  <li><a class="dropdown-item" href="#">Another action</a></li>
-                  <li><hr class="dropdown-divider"></li>
-                  <li><a class="dropdown-item" href="#">Something else here</a></li>
-                </ul>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link disabled" aria-disabled="true">Disabled</a>
-              </li>
-            </ul>
-            <form class="d-flex" role="search">
-              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-              <button class="btn btn-outline-success" type="submit">Search</button>
-            </form>
-          </div>
+    <div id="wrapper">
+        <div id="header">
+            <div id="HeaderLogo"> <img src="style/images/logo.png" alt="PDF-TIFF-Tools" /> </div>
+            <div id="HeaderLink"><strong><a href="affiliate.html">AFFILIATE</a></strong> | <strong><a href="affiliate.html">PAD</a></strong></div>
         </div>
-      </nav>
-
-
-
-
-    <!-- <header id="header" class="fixed-top d-flex align-items-center">
-        <div class="container-fluid">
-          <div class="row justify-content-center align-items-center">
-            <div class="col-xl-11 d-flex align-items-center justify-content-between">
-              <h1 class="logo"><a href="index.html">FrameworkTeam</a></h1>
-              <nav id="navbar" class="navbar">
-                 <ul>
-                    <ui><a href="#home">Home</a></ui>
-                    <ui><a href="#home">Products</a></ui>                            
-                    <ui><a href="#home">Support</a></ui>
+        <ul id="tabs">
+            <li><a href="index.html" id="active">Products</a></li>
+            <li><a href="download.html">Downloads</a></li>
+            <li><a href="purchase.html">Purchase</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+        <div id="OtherLink">
+            <h2 class="pageSectionHeading clear">Split & Merge Tools</h2>
+            <h2 class="pageSectionHeading2 clear">PDF Split Merge</h2>
+            <div id="FeaturesBox">
+                <ul type="square">
+                    <li class="QuickItemsPadding"><a href="pdf-splitter.html"><strong>PDF Splitter</strong></a></li>
+                    <li class="QuickItemsPadding"><a href="pdf-combiner.html"><strong>PDF Combiner</strong></a></li>
+                    <li class="QuickItemsPadding"><a href="pdf-split-merge.html"><strong>PDF Split Merge</strong></a></li>
                 </ul>
-             </nav>
-                </div>
-            </div>            
-        </div>           
-    </header> -->
+            </div>
+            <h2 class="pageSectionHeading2 clear">TIFF Split Merge</h2>
+            <div id="FeaturesBox">
+                <ul type="square">
+                    <li class="QuickItemsPadding"><a href="tiff-splitter.html"><strong>TIFF Splitter</strong></a></li>
+                    <li class="QuickItemsPadding"><a href="tiff-combiner.html"><strong>TIFF Combiner</strong></a></li>
+                    <li class="QuickItemsPadding"><a href="tiff-split-merge.html"><strong>TIFF Split Merge</strong></a></li>
+                </ul>
+            </div>
+            <h2 class="pageSectionHeading clear">Conversion Tools</h2>
+            <h2 class="pageSectionHeading2 clear">PDF to Image</h2>
+            <div id="FeaturesBox">
+                <ul type="square">
+                    <li class="QuickItemsPadding"><a href="pdf-to-tiff-converter.html"><strong>PDF to TIFF</strong></a></li>
+                    <li class="QuickItemsPadding"><a href="pdf-to-jpg-converter.html"><strong>PDF to JPG</strong></a></li>
+                    <li class="QuickItemsPadding"><a href="pdf-to-png-converter.html"><strong>PDF to PNG</strong></a></li>
+                    <li class="QuickItemsPadding"><a href="pdf-to-image-converter.html"><strong>PDF to Image</strong></a></li>
+                </ul>
+            </div>
+            <h2 class="pageSectionHeading2 clear">Image to PDF</h2>
+            <div id="FeaturesBox">
+                <ul type="square">
+                    <li class="QuickItemsPadding"><a href="tiff-to-pdf-converter.html"><strong>TIFF to PDF</strong></a></li>
+                    <li class="QuickItemsPadding"><a href="jpg-to-pdf-converter.html"><strong>JPG to PDF</strong></a></li>
+                    <li class="QuickItemsPadding"><a href="png-to-pdf-converter.html"><strong>PNG to PDF</strong></a></li>
+                </ul>
+            </div>
+            <h2 class="pageSectionHeading2 clear">Office to PDF</h2>
+            <div id="FeaturesBox">
+                <ul type="square">
+                    <li class="QuickItemsPadding"><a href="word-to-pdf-converter.html"><strong>Word to PDF</strong></a></li>
+                    <li class="QuickItemsPadding"><a href="excel-to-pdf-converter.html"><strong>Excel to PDF</strong></a></li>
+                    <li class="QuickItemsPadding"><a href="powerpoint-to-pdf-converter.html"><strong>PPT to PDF</strong></a></li>
+                </ul>
+            </div>
+        </div>
+        <div id="contentPro">
+            <h2 class="pageSectionHeading clear"><a name="pic" id="ops"></a>Split & Merge Tools Overview</h2>
+            <!-- *************************PDF Splitter************************************	-->
+            <div id="ScreenshotBoxPro"><strong>PDF Splitter</strong> <br/>
+                <img src="images/pdf-splitter.jpg" alt="PDF Splitter" /> </div>
+            <div id="QuickDesc">
+                <ul type="square">
+                    <li>Split a PDF file into single pages or sets of pages.</li>
+                    <li>Split PDF by page numbers or custom page ranges.</li>
+                    <li>Extract pages from PDF files by range.</li>
+                </ul>
+                <br/>
+                <a href="pdf-splitter.html"><strong>Product Info</strong></a>: Version: 1.1<br/>
+                <a href="download-pdf-splitter.html"><strong>Download Now</strong></a>: 1.44 MB<br/>
+                <a href="purchase-pdf-splitter.html"><strong>Buy Now</strong></a>: $19.95</div>
+            <div class="clear"> </div>
+            <br/>
+            <!-- *************************PDF Combiner************************************	-->
+            <div id="ScreenshotBoxPro"><strong>PDF Combiner</strong> <br/>
+                <img src="images/pdf-combiner.jpg" alt="PDF Combiner" /> </div>
+            <div id="QuickDesc">
+                <ul type="square">
+                    <li>Merging two or more PDF files.</li>
+                    <li>Merge, combine, join, append, concatenate PDF.</li>
+                    <li>Rearrange pages in a PDF document.</li>
+                </ul>
+                <br/>
+                <a href="pdf-combiner.html"><strong>Product Info</strong></a>: Version: 1.1<br/>
+                <a href="download-pdf-combiner.html"><strong>Download Now</strong></a>: 309 KB<br/>
+                <a href="purchase-pdf-combiner.html"><strong>Buy Now</strong></a>: $19.95</div>
+            <div class="clear"> </div>
+            <br/>
+            <!-- *************************PDF Split Merge************************************	-->
+            <div id="ScreenshotBoxPro"><strong>PDF Split Merge</strong> <br/>
+                <img src="images/pdf-split-merge.jpg" alt="PDF Split Merge" /> </div>
+            <div id="QuickDesc">
+                <ul type="square">
+                    <li>Split a PDF file into single pages or sets of pages.</li>
+                    <li>Merging two or more PDF files.</li>
+                    <li>Rearrange pages in a PDF document.</li>
+                </ul>
+                <br/>
+                <a href="pdf-split-merge.html"><strong>Product Info</strong></a>: Version: 1.1<br/>
+                <a href="download-pdf-split-merge.html"><strong>Download Now</strong></a>: 1.50 MB<br/>
+                <a href="purchase-pdf-split-merge.html"><strong>Buy Now</strong></a>: $24.95</div>
+            <div class="clear"> </div>
+            <br/>
+            <!-- *************************TIFF Splitter************************************	-->
+            <div id="ScreenshotBoxPro"><strong>TIFF Splitter</strong> <br/>
+                <img src="images/tiff-splitter.jpg" alt="TIFF Splitter" /> </div>
+            <div id="QuickDesc">
+                <ul type="square">
+                    <li>Split a TIFF image into single pages or sets of pages.</li>
+                    <li>Split TIFF images by page numbers or custom page ranges.</li>
+                    <li>Customized output TIFF files name.</li>
+                </ul>
+                <br/>
+                <a href="tiff-splitter.html"><strong>Product Info</strong></a>: Version: 1.1<br/>
+                <a href="download-tiff-splitter.html"><strong>Download Now</strong></a>: 2.60 MB<br/>
+                <a href="purchase-tiff-splitter.html"><strong>Buy Now</strong></a>: $19.95</div>
+            <div class="clear"> </div>
+            <br/>
+            <!-- *************************TIFF Combiner************************************	-->
+            <div id="ScreenshotBoxPro"><strong>TIFF Combiner</strong> <br/>
+                <img src="images/tiff-combiner.jpg" alt="TIFF Combiner" /> </div>
+            <div id="QuickDesc">
+                <ul type="square">
+                    <li>Merging one or more TIFF files.</li>
+                    <li>Rearrange pages in a TIFF image.</li>
+                    <li>Supports compressed TIFF files.</li>
+                </ul>
+                <br/>
+                <a href="tiff-combiner.html"><strong>Product Info</strong></a>: Version: 1.1<br/>
+                <a href="download-tiff-combiner.html"><strong>Download Now</strong></a>: 2.54 MB<br/>
+                <a href="purchase-tiff-combiner.html"><strong>Buy Now</strong></a>: $19.95</div>
+            <div class="clear"> </div>
+            <br/>
+            <!-- *************************TIFF Split Merge************************************	-->
+            <div id="ScreenshotBoxPro"><strong>TIFF Split Merge</strong> <br/>
+                <img src="images/tiff-split-merge.jpg" alt="TIFF Split Merge" /> </div>
+            <div id="QuickDesc">
+                <ul type="square">
+                    <li>Split a TIFF image into single pages or sets of pages.</li>
+                    <li>Merging one or more TIFF files.</li>
+                    <li>Merge, combine, join, append, concatenate TIF Images.</li>
+                </ul>
+                <br/>
+                <a href="tiff-split-merge.html"><strong>Product Info</strong></a>: Version: 1.1<br/>
+                <a href="download-tiff-split-merge.html"><strong>Download Now</strong></a>: 2.70 MB<br/>
+                <a href="purchase-tiff-split-merge.html"><strong>Buy Now</strong></a>: $24.95</div>
+            <div class="clear"> </div>
+            <br/>
+            <h2 class="pageSectionHeading clear">Conversion Tools Overview</h2>
+            <!-- *************************PDF to TIFF Converter************************************	-->
+            <div id="ScreenshotBoxPro"><strong>PDF to TIFF Converter</strong> <br/>
+                <img src="images/pdf-to-tiff-converter.jpg" alt="PDF to TIFF Converter" /> </div>
+            <div id="QuickDesc">
+                <ul type="square">
+                    <li>Batch convert PDF to TIFF files.</li>
+                    <li>Supports generate multi page tiff files.</li>
+                    <li>Supports compression of tiff image.</li>
+                </ul>
+                <br/>
+                <a href="pdf-to-tiff-converter.html"><strong>Product Info</strong></a>: Version: 1.3<br/>
+                <a href="download-pdf-to-tiff-converter.html"><strong>Download Now</strong></a>: 228 KB<br/>
+                <a href="purchase-pdf-to-tiff-converter.html"><strong>Buy Now</strong></a>: $24.95</div>
+            <div class="clear"> </div>
+            <br/>
+            <!-- *************************PDF to JPG Converter************************************	-->
+            <div id="ScreenshotBoxPro"><strong>PDF to JPG Converter</strong> <br/>
+                <img src="images/pdf-to-jpg-converter.jpg" alt="PDF to JPG Converter" /> </div>
+            <div id="QuickDesc">
+                <ul type="square">
+                    <li>Batch convert PDF to JPEG files.</li>
+                    <li>Supports conversion into 24bit, 8bits gray format image.</li>
+                    <li>Supports quality percent for jpeg.</li>
+                </ul>
+                <br/>
+                <a href="pdf-to-jpg-converter.html"><strong>Product Info</strong></a>: Version: 1.4<br/>
+                <a href="download-pdf-to-jpg-converter.html"><strong>Download Now</strong></a>: 455 KB<br/>
+                <a href="purchase-pdf-to-jpg-converter.html"><strong>Buy Now</strong></a>: $24.95</div>
+            <div class="clear"> </div>
+            <br/>
+            <!-- *************************PDF to PNG Converter************************************	-->
+            <div id="ScreenshotBoxPro"><strong>PDF to PNG Converter</strong> <br/>
+                <img src="images/pdf-to-png-converter.png" alt="PDF to PNG Converter" /> </div>
+            <div id="QuickDesc">
+                <ul type="square">
+                    <li>Batch convert PDF to PNG files.</li>
+                    <li>Change DPI settings depending on your needs.</li>
+                    <li>Supports high color, 256 color, 16 color, gray.</li>
+                </ul>
+                <br/>
+                <a href="pdf-to-png-converter.html"><strong>Product Info</strong></a>: Version: 1.2<br/>
+                <a href="download-pdf-to-png-converter.html"><strong>Download Now</strong></a>: 592 KB<br/>
+                <a href="purchase-pdf-to-png-converter.html"><strong>Buy Now</strong></a>: $24.95</div>
+            <div class="clear"> </div>
+            <br/>
+            <!-- *************************PDF to Image Converter************************************	-->
+            <div id="ScreenshotBoxPro"><strong>PDF to Image Converter</strong> <br/>
+                <img src="images/pdf-to-image-converter.jpg" alt="PDF to Image Converter" /> </div>
+            <div id="QuickDesc">
+                <ul type="square">
+                    <li>Batch convert PDF to Image files.</li>
+                    <li>Supports JPG, TIF, BMP, PNG AND PCX.</li>
+                    <li>Supports outputting result to be customized.</li>
+                </ul>
+                <br/>
+                <a href="pdf-to-image-converter.html"><strong>Product Info</strong></a>: Version: 1.3<br/>
+                <a href="download-pdf-to-image-converter.html"><strong>Download Now</strong></a>: 224 KB<br/>
+                <a href="purchase-pdf-to-image-converter.html"><strong>Buy Now</strong></a>: $29.95</div>
+            <div class="clear"> </div>
+            <br/>
+            <!-- *************************TIFF to PDF Converter************************************	-->
+            <div id="ScreenshotBoxPro"><strong>TIFF to PDF Converter</strong> <br/>
+                <img src="images/tiff-to-pdf-converter.jpg" alt="TIFF to PDF Converter" /> </div>
+            <div id="QuickDesc">
+                <ul type="square">
+                    <li>Batch convert TIFF to PDF.</li>
+                    <li>Can combine multiple TIFF files into one PDF file.</li>
+                    <li>Supports multi-page tiff file to PDF conversion.</li>
+                </ul>
+                <br/>
+                <a href="tiff-to-pdf-converter.html"><strong>Product Info</strong></a>: Version: 1.1<br/>
+                <a href="download-tiff-to-pdf-converter.html"><strong>Download Now</strong></a>: 2.69 MB<br/>
+                <a href="purchase-tiff-to-pdf-converter.html"><strong>Buy Now</strong></a>: $24.95</div>
+            <div class="clear"> </div>
+            <br/>
+            <!-- *************************JPG to PDF Converter************************************	-->
+            <div id="ScreenshotBoxPro"><strong>JPG to PDF Converter</strong> <br/>
+                <img src="images/jpg-to-pdf-converter.jpg" alt="JPG to PDF Converter" /> </div>
+            <div id="QuickDesc">
+                <ul type="square">
+                    <li>Batch convert JPEG to PDF.</li>
+                    <li>Can combine multiple JPEG images into one PDF file.</li>
+                    <li>Convert each JPEG Image into a separate PDF file.</li>
+                </ul>
+                <br/>
+                <a href="jpg-to-pdf-converter.html"><strong>Product Info</strong></a>: Version: 1.2<br/>
+                <a href="download-jpg-to-pdf-converter.html"><strong>Download Now</strong></a>: 457 KB<br/>
+                <a href="purchase-jpg-to-pdf-converter.html"><strong>Buy Now</strong></a>: $24.95</div>
+            <div class="clear"> </div>
+            <br/>
+            <!-- *************************PNG to PDF Converter************************************	-->
+            <div id="ScreenshotBoxPro"><strong>PNG to PDF Converter</strong> <br/>
+                <img src="images/png-to-pdf-converter.png" alt="PNG to PDF Converter" /> </div>
+            <div id="QuickDesc">
+                <ul type="square">
+                    <li>Batch convert PNG to PDF.</li>
+                    <li>Merge multiple PNG into one PDF file.</li>
+                    <li>Convert each PNG Image into a separate PDF file.</li>
+                </ul>
+                <br/>
+                <a href="png-to-pdf-converter.html"><strong>Product Info</strong></a>: Version: 1.1<br/>
+                <a href="download-png-to-pdf-converter.html"><strong>Download Now</strong></a>: 2.20 MB<br/>
+                <a href="purchase-png-to-pdf-converter.html"><strong>Buy Now</strong></a>: $24.95</div>
+            <div class="clear"> </div>
+            <br/>
+            <!-- *************************Word to PDF Converter************************************	-->
+            <div id="ScreenshotBoxPro"><strong>Word to PDF Converter</strong> <br/>
+                <img src="images/word-to-pdf-converter.jpg" alt="Word to PDF Converter" /> </div>
+            <div id="QuickDesc">
+                <ul type="square">
+                    <li>Batch Convert MS Word to PDF document.</li>
+                    <li>Supports DOC to PDF and DOCX to PDF.</li>
+                    <li>Easy to use. Convert with one click.</li>
+                </ul>
+                <br/>
+                <a href="word-to-pdf-converter.html"><strong>Product Info</strong></a>: Version: 1.1<br/>
+                <a href="download-word-to-pdf-converter.html"><strong>Download Now</strong></a>: 17.2 MB<br/>
+                <a href="purchase-word-to-pdf-converter.html"><strong>Buy Now</strong></a>: $24.95</div>
+            <div class="clear"> </div>
+            <br/>
+            <!-- *************************Excel to PDF Converter************************************	-->
+            <div id="ScreenshotBoxPro"><strong>Excel to PDF Converter</strong> <br/>
+                <img src="images/excel-to-pdf-converter.jpg" alt="Excel to PDF Converter" /> </div>
+            <div id="QuickDesc">
+                <ul type="square">
+                    <li>Batch Convert MS Excel to PDF document.</li>
+                    <li>Supports XLS to PDF and XLSX to PDF.</li>
+                    <li>Easy to use. Convert with one click.</li>
+                </ul>
+                <br/>
+                <a href="excel-to-pdf-converter.html"><strong>Product Info</strong></a>: Version: 1.1<br/>
+                <a href="download-excel-to-pdf-converter.html"><strong>Download Now</strong></a>: 17.2 MB<br/>
+                <a href="purchase-excel-to-pdf-converter.html"><strong>Buy Now</strong></a>: $24.95</div>
+            <div class="clear"> </div>
+            <br/>
+            <!-- *************************PPT to PDF Converter************************************	-->
+            <div id="ScreenshotBoxPro"><strong>PPT to PDF Converter</strong> <br/>
+                <img src="images/ppt-to-pdf-converter.jpg" alt="PPT to PDF Converter" /> </div>
+            <div id="QuickDesc">
+                <ul type="square">
+                    <li>Batch Convert MS PowerPoint to PDF document.</li>
+                    <li>Supports PPT to PDF and PPTX to PDF.</li>
+                    <li>Easy to use. Convert with one click.</li>
+                </ul>
+                <br/>
+                <a href="powerpoint-to-pdf-converter.html"><strong>Product Info</strong></a>: Version: 1.0<br/>
+                <a href="download-powerpoint-to-pdf-converter.html"><strong>Download Now</strong></a>: 17.3 MB<br/>
+                <a href="purchase-powerpoint-to-pdf-converter.html"><strong>Buy Now</strong></a>: $24.95</div>
+            <div class="clear"> </div>
+            <br/>
+        </div>
+        <div class="clear"> </div>
+ <div id="footer">
+    <p>Copyright &copy; 2024 <a href="http://frameworkteam.com/" target="_blank">FrameworkTeam Softwares</a>, All rights reserved.</p>
+    <p><a href="https://www.frameworkteam.com/terms-of-use.html" target="_blank">Terms of Use</a> |
+        <a href="https://www.frameworkteam.com/privacy-policy.html" target="_blank">Privacy Policy</a></p>
+  </div>
+    </div>
+    <script type="text/javascript">
+        var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+        document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
 
-    <main id="main">
+    </script>
+    <script type="text/javascript">
+        try {
+            var pageTracker = _gat._getTracker("UA-2785940-5");
+            pageTracker._trackPageview();
+        } catch (err) {}
 
-    </main>
-    <footer id="footer">
-        
-    </footer>
-    <!--Bootstrap CDN Link for JS-->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous"></script>
+    </script>
 </body>
+
 </html>

@@ -1,0 +1,267 @@
+<XML_DIZ_INFO>
+  <MASTER_PAD_VERSION_INFO>
+    <MASTER_PAD_VERSION>4.0</MASTER_PAD_VERSION>
+    <MASTER_PAD_EDITOR>AppVisor 1.0.43</MASTER_PAD_EDITOR>
+    <MASTER_PAD_EDITOR_URL>http://publisher.appvisor.com</MASTER_PAD_EDITOR_URL>
+    <MASTER_PAD_INFO>Portable Application Description, or PAD(TM) 2004 Association of Software Professionals (ASP)http://www.asp-shareware.org/pad is a data set standard and specification that is commercialsoftware publishers to disseminate certified information about their software application. The PAD format is copyright of the ASP and cannot be used without the formal licensing and permission of both the Association of Software Professionals and its agent AppVisor.com.</MASTER_PAD_INFO>
+    <CERTIFIED>No</CERTIFIED>
+    <CERTIFICATE_ID></CERTIFICATE_ID>
+    <CERTIFICATE_LICENSE></CERTIFICATE_LICENSE>
+  </MASTER_PAD_VERSION_INFO>
+  <RoboSoft>
+    <Company_UIN>CMP-AE00EA956AC3</Company_UIN>
+    <Product_UIN>APP-AD008EE168C3</Product_UIN>
+    <Publish_on_CD></Publish_on_CD>
+    <NewsFeed_Search_String></NewsFeed_Search_String>
+    <Search_String>PDF Splitter</Search_String>
+    <Press_Release_Search_String></Press_Release_Search_String>
+    <Backlink></Backlink>
+    <Comments_For_Reviewer></Comments_For_Reviewer>
+    <Search_String_Unique>PDF Splitter</Search_String_Unique>
+    <Search_Engine_Search_String></Search_Engine_Search_String>
+    <Web_Directories_Search_String></Web_Directories_Search_String>
+    <Company_Description></Company_Description>
+  </RoboSoft>
+  <Company_Info>
+    <PublisherID>pid-e9000775c2aa</PublisherID>
+    <BrandID>bid-ae00ea956ac3</BrandID>
+    <Company_Name>FrameworkTeam Softwares</Company_Name>
+    <Country>India</Country>
+    <State_Province>Gujrat</State_Province>
+    <City_Town>Ahmedabad</City_Town>
+    <Zip_Postal_Code>380055</Zip_Postal_Code>
+    <Address_1>C/28 Classic Park Soc</Address_1>
+    <Address_2>Sarkhej Road</Address_2>
+    <Company_WebSite_URL>http://www.FrameworkTeam.com</Company_WebSite_URL>
+    <Contact_Info>
+      <Contact_First_Name>Javed</Contact_First_Name>
+      <Contact_Last_Name>Chauhan</Contact_Last_Name>
+      <Contact_Email>Support@FrameworkTeam.com</Contact_Email>
+      <Author_First_Name>Javed</Author_First_Name>
+      <Author_Last_Name>Chauhan</Author_Last_Name>
+      <Author_Email>Support@FrameworkTeam.com</Author_Email>
+      <Contact_Phone></Contact_Phone>
+    </Contact_Info>
+    <Support_Info>
+      <Sales_Email>Support@PDF-TIFF-Tools.com</Sales_Email>
+      <Support_Email>Support@PDF-TIFF-Tools.com</Support_Email>
+      <General_Email>Support@PDF-TIFF-Tools.com</General_Email>
+      <Sales_Phone></Sales_Phone>
+      <Support_Phone></Support_Phone>
+      <General_Phone></General_Phone>
+      <Fax_Phone></Fax_Phone>
+    </Support_Info>
+    <GooglePlusPage></GooglePlusPage>
+    <LinkedinPage></LinkedinPage>
+    <TwitterCompanyPage></TwitterCompanyPage>
+    <FacebookCompanyPage></FacebookCompanyPage>
+    <CompanyStorePage></CompanyStorePage>
+  </Company_Info>
+  <Program_Info>
+    <AppID>app-ad008ee168c3</AppID>
+    <Program_Name>PDF Splitter</Program_Name>
+    <Program_Version>1.1</Program_Version>
+    <Program_Release_Month>09</Program_Release_Month>
+    <Program_Release_Day>11</Program_Release_Day>
+    <Program_Release_Year>2012</Program_Release_Year>
+    <Program_Cost_Dollars>19.95</Program_Cost_Dollars>
+    <Program_Cost_Other_Code></Program_Cost_Other_Code>
+    <Program_Cost_Other></Program_Cost_Other>
+    <Program_Type>Shareware</Program_Type>
+    <Program_Category_Class>Business::Other</Program_Category_Class>
+    <Program_Specific_Category>Business</Program_Specific_Category>
+    <Program_Categories></Program_Categories>
+    <Program_Release_Status>Minor Update</Program_Release_Status>
+    <Program_Install_Support>Install and Uninstall</Program_Install_Support>
+    <Program_OS_Support>Win2000,WinXP,Win7 x32,Win7 x64,Windows 8,WinVista,WinVista x64</Program_OS_Support>
+    <Program_Language>English</Program_Language>
+    <Program_Change_Info></Program_Change_Info>
+    <Program_System_Requirements></Program_System_Requirements>
+    <Limitations></Limitations>
+    <Awards></Awards>
+    <File_Info>
+      <File_Size_Bytes>1515520</File_Size_Bytes>
+      <File_Size_K>1480</File_Size_K>
+      <File_Size_MB>1.45</File_Size_MB>
+    </File_Info>
+    <Expire_Info>
+      <Has_Expire_Info>Y</Has_Expire_Info>
+      <Expire_Count>15</Expire_Count>
+      <Expire_Based_On>Days</Expire_Based_On>
+      <Expire_Year></Expire_Year>
+      <Expire_Other_Info></Expire_Other_Info>
+      <Expire_Month></Expire_Month>
+      <Expire_Day></Expire_Day>
+    </Expire_Info>
+    <FacebookFanPage></FacebookFanPage>
+    <VideoLink1URL></VideoLink1URL>
+    <VideoLink2URL></VideoLink2URL>
+    <Includes_JAVA_VM></Includes_JAVA_VM>
+    <Includes_DirectX></Includes_DirectX>
+    <Includes_VB_Runtime></Includes_VB_Runtime>
+    <GooglePlusFanPage></GooglePlusFanPage>
+  </Program_Info>
+  <Web_Info>
+    <Application_URLs>
+      <Application_Info_URL>http://www.PDF-TIFF-Tools.com/PDF-Splitter.html</Application_Info_URL>
+      <Application_Order_URL>http://www.PDF-TIFF-Tools.com/Purchase-PDF-Splitter.html</Application_Order_URL>
+      <Application_Screenshot_URL>http://www.pdf-tiff-tools.com/Images/PDF-Splitter-Main.png</Application_Screenshot_URL>
+      <Application_Icon_URL>http://www.PDF-TIFF-Tools.com/Images/PDF-Splitter-ICO.gif</Application_Icon_URL>
+      <Application_XML_File_URL>http://repository.appvisor.com/app-ad008ee168c3/site-01/PDF_Splitter_pad.xml</Application_XML_File_URL>
+    </Application_URLs>
+    <Download_URLs>
+      <Primary_Download_URL>http://www.PDF-TIFF-Tools.com/Downloads/PDF-Splitter-Setup.exe</Primary_Download_URL>
+      <Secondary_Download_URL></Secondary_Download_URL>
+      <Additional_Download_URL_1></Additional_Download_URL_1>
+      <Additional_Download_URL_2></Additional_Download_URL_2>
+    </Download_URLs>
+  </Web_Info>
+  <Program_Descriptions>
+    <English>
+      <Keywords>PDF Splitter, Split PDF Documents, Splitting PDF files</Keywords>
+      <Char_Desc_45>PDF Splitter</Char_Desc_45>
+      <Char_Desc_80>PDF Splitter is a very simple and fast windows utility program that lets you spl</Char_Desc_80>
+      <Char_Desc_250>PDF Splitter is a very simple and fast windows utility program that lets you split multi-page PDF files into smaller PDF files. PDF Splitter provides options for how your large PDF documents are split &#x2013; by pages, by page range etc.</Char_Desc_250>
+      <Char_Desc_450>PDF Splitter is a very simple and fast windows utility program that lets you split multi-page PDF files into smaller PDF files. PDF Splitter provides options for how your large PDF documents are split &#x2013; by pages, by page range etc. So if you have a multi page PDF document and you want to reorganize the pages, this tool will do the task. For instance it can split 100-page PDF file and create a new file by every 20 pages. So you get 5 PDF documents</Char_Desc_450>
+      <Char_Desc_2000>PDF Splitter is a very simple and fast windows utility program that lets you split multi-page PDF files into smaller PDF files. PDF Splitter provides options for how your large PDF documents are split &#x2013; by pages, by page range etc. So if you have a multi page PDF document and you want to reorganize the pages, this tool will do the task. For instance it can split 100-page PDF file and create a new file by every 20 pages. So you get 5 PDF documents with 20-pages each. PDF Splitter does NOT require Adobe Acrobat.
+
+ Key Features:
+
+    * Adobe Acrobat NOT required.
+    * Split a PDF file into single pages or sets of pages.
+    * Automates the process of splitting.
+    * Split PDF documents by page numbers or custom page ranges.
+    * Remove pages from PDF files.
+    * Rearrange pages in a PDF document.
+    * Extract pages from PDF files by range.
+    * Powerful advanced split options.
+    * Drag and Drop support of files.
+    * Save and load batch list.</Char_Desc_2000>
+    </English>
+  </Program_Descriptions>
+  <Permissions>
+    <Distribution_Permissions></Distribution_Permissions>
+    <EULA>PDF Splitter License Agreement
+
+The PDF Splitter is distributed as TRY BEFORE YOU BUY. This means:
+1.	All copyrights to PDF Splitter are exclusively owned by PDF-TIFF-Tools.com
+
+2.	Anyone may use this software during a test period of 15 days. Following this test period of 15 days or less, if you wish to continue to use PDF Splitter, you must register.
+
+3.	The PDF Splitter unregistered trial version may be freely distributed, with exceptions noted below, provided the distribution package is not modified in any way.
+a.	No person or company may distribute separate parts of the package without written permission of the copyright owner.
+b.	The PDF Splitter unregistered trial version may not be distributed inside of any other software package without written permission of the copyright owner.
+c.	Hacks/cracks, keys or key generators may not be included on the same distribution.         
+
+4.	THE PDF Splitter IS DISTRIBUTED &#x201C;AS IS&#x201D;. NO WARRANTY OF ANY KIND IS EXPRESSED OR IMPLIED. YOU USE AT YOUR OWN RISK.  NEITHER THE AUTHOR NOR THE AGENTS OF THE AUTHOR WILL BE LIABLE FOR DATA LOSS, DAMAGES, LOSS OF PROFITS OR ANY OTHER KIND OF LOSS WHILE USING OR MISUSING THIS SOFTWARE.
+
+5.	You may not use, copy, emulate, clone, rent, lease, sell, modify, decompile, disassemble, otherwise reverse engineer, or transfer the licensed program, or any subset of the licensed program, except as provided for in this agreement. Any such unauthorized use shall result in immediate and automatic termination of this license and may result in criminal and/or civil prosecution. All rights not expressly granted here are reserved by PDF-TIFF-Tools.com.
+
+6.	Installing and using PDF Splitter signifies acceptance of these terms and conditions of the license.
+
+7.	If you do not agree with the terms of this license you must remove PDF Splitter files from your storage devices and cease to use the product.
+
+Thank you for using PDF Splitter.</EULA>
+  </Permissions>
+  <Affiliates>
+    <Affiliates_Regsoft_Order_Page></Affiliates_Regsoft_Order_Page>
+    <Affiliates_Regnow_Order_Page></Affiliates_Regnow_Order_Page>
+    <Affiliates_Regsoft_Vendor_ID></Affiliates_Regsoft_Vendor_ID>
+    <Affiliates_Regnow_Vendor_ID></Affiliates_Regnow_Vendor_ID>
+    <Affiliates_Regsoft_Product_ID></Affiliates_Regsoft_Product_ID>
+    <Affiliates_Regnow_Product_ID></Affiliates_Regnow_Product_ID>
+    <Affiliates_FORM>Y</Affiliates_FORM>
+    <Affiliates_FORM_VER></Affiliates_FORM_VER>
+    <Affiliates_VERSION>1.4</Affiliates_VERSION>
+    <Affiliates_URL>http://pad.asp-software.org/extensions/Affiliates.htm</Affiliates_URL>
+    <Affiliates_Information_Page>http://www.frameworkteam.com/Affiliate.html</Affiliates_Information_Page>
+    <Affiliates_Avangate_Order_Page></Affiliates_Avangate_Order_Page>
+    <Affiliates_Avangate_Vendor_ID></Affiliates_Avangate_Vendor_ID>
+    <Affiliates_Avangate_Product_ID></Affiliates_Avangate_Product_ID>
+    <Affiliates_Avangate_Maximum_Commission_Rate></Affiliates_Avangate_Maximum_Commission_Rate>
+    <Affiliates_Plimus_Order_Page>https://www.bluesnap.com/jsp/buynow.jsp?contractId=2460308</Affiliates_Plimus_Order_Page>
+    <Affiliates_Plimus_Vendor_ID>88404</Affiliates_Plimus_Vendor_ID>
+    <Affiliates_Plimus_Product_ID>2460308</Affiliates_Plimus_Product_ID>
+    <Affiliates_Plimus_Maximum_Commission_Rate>30%</Affiliates_Plimus_Maximum_Commission_Rate>
+    <Affiliates_BMTMicro_Order_Page></Affiliates_BMTMicro_Order_Page>
+    <Affiliates_BMTMicro_Vendor_ID></Affiliates_BMTMicro_Vendor_ID>
+    <Affiliates_BMTMicro_Product_ID></Affiliates_BMTMicro_Product_ID>
+    <Affiliates_BMTMicro_Maximum_Commission_Rate></Affiliates_BMTMicro_Maximum_Commission_Rate>
+    <Affiliates_eSellerate_Order_Page></Affiliates_eSellerate_Order_Page>
+    <Affiliates_eSellerate_Vendor_ID></Affiliates_eSellerate_Vendor_ID>
+    <Affiliates_eSellerate_Product_ID></Affiliates_eSellerate_Product_ID>
+    <Affiliates_eSellerate_Maximum_Commission_Rate></Affiliates_eSellerate_Maximum_Commission_Rate>
+    <Affiliates_Kagi_Order_Page></Affiliates_Kagi_Order_Page>
+    <Affiliates_Kagi_Vendor_ID></Affiliates_Kagi_Vendor_ID>
+    <Affiliates_Kagi_Product_ID></Affiliates_Kagi_Product_ID>
+    <Affiliates_Kagi_Maximum_Commission_Rate></Affiliates_Kagi_Maximum_Commission_Rate>
+    <Affiliates_Order1_Order_Page></Affiliates_Order1_Order_Page>
+    <Affiliates_Order1_Vendor_ID></Affiliates_Order1_Vendor_ID>
+    <Affiliates_Order1_Product_ID></Affiliates_Order1_Product_ID>
+    <Affiliates_Order1_Maximum_Commission_Rate></Affiliates_Order1_Maximum_Commission_Rate>
+    <Affiliates_Regnet_Order_Page></Affiliates_Regnet_Order_Page>
+    <Affiliates_Regnet_Vendor_ID></Affiliates_Regnet_Vendor_ID>
+    <Affiliates_Regnet_Product_ID></Affiliates_Regnet_Product_ID>
+    <Affiliates_Regnet_Maximum_Commission_Rate></Affiliates_Regnet_Maximum_Commission_Rate>
+    <Affiliates_Regnow_Maximum_Commission_Rate></Affiliates_Regnow_Maximum_Commission_Rate>
+    <Affiliates_Regsoft_Maximum_Commission_Rate></Affiliates_Regsoft_Maximum_Commission_Rate>
+    <Affiliates_ShareIt_Order_Page></Affiliates_ShareIt_Order_Page>
+    <Affiliates_ShareIt_Vendor_ID></Affiliates_ShareIt_Vendor_ID>
+    <Affiliates_ShareIt_Product_ID></Affiliates_ShareIt_Product_ID>
+    <Affiliates_ShareIt_Maximum_Commission_Rate></Affiliates_ShareIt_Maximum_Commission_Rate>
+    <Affiliates_SWReg_Order_Page></Affiliates_SWReg_Order_Page>
+    <Affiliates_SWReg_Vendor_ID></Affiliates_SWReg_Vendor_ID>
+    <Affiliates_SWReg_Product_ID></Affiliates_SWReg_Product_ID>
+    <Affiliates_SWReg_Maximum_Commission_Rate></Affiliates_SWReg_Maximum_Commission_Rate>
+  </Affiliates>
+  <NewsFeed>
+    <NewsFeed_FORM></NewsFeed_FORM>
+    <NewsFeed_VERSION></NewsFeed_VERSION>
+    <NewsFeed_URL></NewsFeed_URL>
+    <NewsFeed_DESCRIPTION></NewsFeed_DESCRIPTION>
+    <NewsFeed_Feed_URL></NewsFeed_Feed_URL>
+    <NewsFeed_Type></NewsFeed_Type>
+    <NewsFeed_Site_URL></NewsFeed_Site_URL>
+    <NewsFeed_Author_First_Name>Javed</NewsFeed_Author_First_Name>
+    <NewsFeed_Author_Last_Name>Chauhan</NewsFeed_Author_Last_Name>
+    <NewsFeed_Author_Email>Support@FrameworkTeam.com</NewsFeed_Author_Email>
+    <NewsFeed_Language></NewsFeed_Language>
+    <NewsFeed_Title></NewsFeed_Title>
+    <NewsFeed_Description_70></NewsFeed_Description_70>
+    <NewsFeed_Description_250></NewsFeed_Description_250>
+    <NewsFeed_Purpose></NewsFeed_Purpose>
+    <NewsFeed_Site_Name></NewsFeed_Site_Name>
+  </NewsFeed>
+  <Press_Release>
+    <Press_Release></Press_Release>
+    <Headline></Headline>
+    <Summary></Summary>
+    <Press_Release_Plain></Press_Release_Plain>
+  </Press_Release>
+  <Site>
+    <Site_FORM></Site_FORM>
+    <Site_VERSION></Site_VERSION>
+    <Site_URL></Site_URL>
+    <Site_DESCRIPTION></Site_DESCRIPTION>
+    <Site_Site_Title></Site_Site_Title>
+    <Site_Site_URL></Site_Site_URL>
+    <Site_Keywords></Site_Keywords>
+    <Site_Description_100></Site_Description_100>
+    <Site_Description_250></Site_Description_250>
+    <Site_Description_450></Site_Description_450>
+    <Site_Contact_First_Name>Javed</Site_Contact_First_Name>
+    <Site_Contact_Last_Name>Chauhan</Site_Contact_Last_Name>
+    <Site_Contact_Email>Support@FrameworkTeam.com</Site_Contact_Email>
+  </Site>
+  <Dynamic_PAD>
+    <General>
+      <DP_Pad_Enabled>TRUE</DP_Pad_Enabled>
+      <DP_AtFormFill_Enabled>TRUE</DP_AtFormFill_Enabled>
+      <DP_Distributive_Enabled>TRUE</DP_Distributive_Enabled>
+      <DP_Script_Base_URL>http://repository.appvisor.com/</DP_Script_Base_URL>
+      <DP_Pad_Mask>PDF_Splitter_pad.xml</DP_Pad_Mask>
+      <DP_Distributive_Primary_URL>http://www.PDF-TIFF-Tools.com/Downloads/PDF-Splitter-Setup.exe</DP_Distributive_Primary_URL>
+      <DP_Distributive_Mask>PDF-Splitter-Setup.exe</DP_Distributive_Mask>
+    </General>
+  </Dynamic_PAD>
+</XML_DIZ_INFO>
